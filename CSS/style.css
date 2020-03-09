@@ -3,6 +3,10 @@
 @import "cards.css";
 @import "form.css";
 @import "contact.css";
+@import "interets.css";
+@import "competences.css";
+@import "projets.css";
+@import "references.css";
 
 * {
     margin: 0;
