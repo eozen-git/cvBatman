@@ -1,6 +1,13 @@
 @import "navbar.css";
 @import "body.css";
 @import "cards.css";
+@import "interets.css";
+@import "competences.css";
+@import "contact.css";
+@import "form.css";
+@import "projets.css";
+@import "references.css";
+
 
 * {
     margin: 0;
