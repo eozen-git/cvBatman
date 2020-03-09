@@ -14,28 +14,27 @@
 
 ## Description des fonctionnalitées:
 
-### Menu/navbar: 
+### Menu/navbar: _(Julien G)_
 >En mode paralax avec la nav bar en fixed en top
 
-### Compétences: 
+### Compétences: _(Oleg)_
 > Apparition au click d'une page  avec modification du pointeur au survol de compétence.
 
-## Liste projet: 
+### Liste projet: _(anthony)_
 
-#### Référence: 
+### Référence: _(yannice)_
 >une liste de logo clickable
 
-#### Formation: 
+### Formation: 
 >nom de formation  avec lien vers les écoles éventuels
-
-#### Mobilité: 
+### Mobilité: _(yannice)_
 >google maps
 
-#### hobbies: 
+### hobbies: _(julien g)_
 >petite bulle image avec figcaption
 
-#### Contact: 
+### Contact: _(julien J)_
 >création de formulaire en colonne / avec adresse à coté
 
-#### Footer: 
+### Footer: _(julien J)_ 
 >lien linkedin / lien twitter
