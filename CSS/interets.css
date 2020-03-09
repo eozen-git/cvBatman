@@ -1,0 +1,9 @@
+#hobbies{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#hobbies figcaption{
+    text-align: center;
+}
