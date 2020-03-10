@@ -1,17 +1,33 @@
 header {
     display: flex;
     flex-direction: column-reverse;
-    
+
 }
 
 .headernav {
     display: flex;
     justify-content: space-around;
+    position: sticky;
+    top: 10px;
+}
+
+.description {
+   display: flex;
 
 }
-.description {
-   
+.text-description {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-around;
 }
-.description img {
-   
+.text-description h1 {
+    align-self: start;
+}
+.text-description p {
+    width: 50%;
+}
+main {
+    height: 1200px
+    ;
 }
