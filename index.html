@@ -117,25 +117,38 @@
 
             <h2>Me contacter</h2>
             <div class="contact">
-                <form class="formulaire">
-                    <label for="email">Mail</label>
-                    <input type="email" id="email" name="email" placeholder="@" required>
-                    <label for="tel">Téléphone</label>
-                    <input type="text" id="tel" name="tel" minlength="10" placeholder="06">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="50" rows="10"></textarea>
-                </form>
                 <div class="coordonnees">
                     <p>E-mail</p>
                     <p>Téléphone</p>
-                    <p>Adresse</p>
                 </div>
+                <form action="test.php" method="POST" id="formulaire_mail">
+                    <fieldset class="formulaire_mail">
+                        <legend>M'envoyer un message</legend>
+                            <label for="email">Mail</label>
+                            <input type="email" id="email" name="email" placeholder="@" required>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="50" rows="10" required></textarea>
+                            <button type="submit" form="formulaire_mail">Envoyer</button>
+                    </fieldset>                       
+                </form>
+                <form action="test.php" method="POST" id="formulaire_tel">
+                    <fieldset class="formulaire_tel">
+                        <legend>Je vous rappelle</legend>
+                            <label for="tel">Téléphone</label>
+                            <input type="tel" id="tel" name="tel" minlength="10" placeholder="06">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" name="date">
+                            <label for="time" id="time">Entre 8:00 et 20:00</label>
+                            <input type="time" min="08:00" max="20:00">
+                            <button type="submit" form="formulaire_tel">Envoyer</button>
+                    </fieldset>
+                </form>
             </div>
         </section>
     </main>
 
     <footer>
-        <ul>
+        <ul class="footer_container">
             <li><a href="https://www.twitter.com"><img src="" alt="Twitter"></a></li>
             <li><a href="https://www.linkedin.com"><img src="" alt="Linkedin"></a></li>
             <li><a href="https://www.viadeo.com"><img src="" alt="Viadeo"></a></li>
