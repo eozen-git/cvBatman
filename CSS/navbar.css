@@ -15,6 +15,7 @@ header {
     color: var(--dark);
     padding: var(--spacing);
     font-family: var(--title-font);
+    text-decoration: none;
 }
 
 .description {
