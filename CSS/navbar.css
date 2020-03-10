@@ -20,33 +20,40 @@ header {
 
 .description {
    display: flex;
-   /* justify-content: space-between; */
+   justify-content: space-between;
 }
 h1 {
-    font-size: var(--large-size);
+    font-size: 10vw;
     margin-left: var(--spacing-lg);
-    margin-top: 20%;
+    margin-top: 10%;
+    
 }
 .text-description {
     display: flex;
     flex-direction: column ;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
-    padding-bottom: 5%;
+    width: 80%;
+    height: 45vw;
 }
 .description img {
-   /* margin-right: 5px;  */
-   padding: 5%;
+
+   padding: 2.5% 2.5% 1%;
    justify-self: flex-end;
-   width: 50%;
+   width: 40%;
+   height: 45vw;
 
 }
 .text-description h1 {
     align-self: start;
 }
 .text-description p {
-    width: 70%;
+    
     align-self: flex-end;
     text-align: right;
+    font-size: 20pt;
+    padding-bottom: 5%;
+}
+a:first-of-type img {
+    height: 20px;
 }
