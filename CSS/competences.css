@@ -6,12 +6,25 @@
  }
 
 #competences ul li{
-    border: 1px solid black;
-    border-radius: 2px;
+    /* border: 1px solid rgba(0, 0, 0, 0); */
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 5px 2px black;
 }
- .click{
-     display: none;
- }
+
+.comp_description{
+    display: none;
+}
+
+#competences ul li:hover .comp_description{
+    display: inline;
+    text-align: center;
+}
+
+#competences ul li:hover .comp_nom{
+    display: none;
+}
