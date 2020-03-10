@@ -1,9 +1,37 @@
-#hobbies{
+/*#interets {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    /*justify-content: space-evenly;*/
+    /*flex-wrap: wrap;*/
+    /*align-items: center;*/
+    /*width: 150px;
+    height: 150px;*/
+
+
+
+.hobbies {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.hobbies figcaption{
+    text-align: center;
+    position: absolute;
+
 }
 
-#hobbies figcaption{
-    text-align: center;
+.hobbies figure {
+   height: 300px;
+   width: 300px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.hobbies figure img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
 }
