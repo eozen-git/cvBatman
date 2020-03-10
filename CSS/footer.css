@@ -6,3 +6,9 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
+.footer_container li {
+    list-style-type: none;
+}
+.footer_container li a {
+    text-decoration: none;
+}
