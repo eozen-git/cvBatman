@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random</title>
-    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="CSS/style.css">
     <meta name="author" content="Julien Gault, Julien Jourden, Anthony Rossignol, Yannice Maladin, Oleg Chenesseau">
 </head>
@@ -96,19 +95,30 @@
         <section id="contact">
             <h2>Me contacter</h2>
             <div class="contact">
-                <form class="formulaire">
-                    <label for="email">Mail</label>
-                    <input type="email" id="email" name="email" placeholder="@" required>
-                    <label for="tel">Téléphone</label>
-                    <input type="text" id="tel" name="tel" minlength="10" placeholder="06">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="50" rows="10"></textarea>
-                </form>
                 <div class="coordonnees">
                     <p>E-mail</p>
                     <p>Téléphone</p>
-                    <p>Adresse</p>
                 </div>
+                <form action="test.php" method="POST" id="formulaire_tel">
+                    <fieldset class="formulaire_tel">
+                        <legend>M'envoyer un message</legend>
+                            <label for="email">Mail</label>
+                            <input type="email" id="email" name="email" placeholder="@" required>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="50" rows="10" required></textarea>
+                    </fieldset>                       
+                </form>
+                <form action="test.php" method="POST" id="formulaire_mail">
+                    <fieldset class="formulaire_mail">
+                        <legend>Je vous rappelle</legend>
+                            <label for="tel">Téléphone</label>
+                            <input type="tel" id="tel" name="tel" minlength="10" placeholder="06">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" name="date">
+                            <label for="time" id="time">Heure</label>
+                            <input type="time" min="08:00" max="20:00">
+                    </fieldset>
+                </form>
             </div>
         </section>
     </main>

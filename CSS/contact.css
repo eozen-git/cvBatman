@@ -2,13 +2,25 @@
     display: flex;
     align-content: center;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 2%;
+    justify-content: space-around;
 }
 .coordonnees {
     display: flex;
     flex-direction: column;
+    align-items: left;
 }
 .coordonnees p {
-    align-self: flex-end;
+    margin: 33% 0;
+}
+.formulaire_mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+}
+.formulaire_tel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
 }
