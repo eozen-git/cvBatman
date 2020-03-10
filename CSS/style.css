@@ -1,6 +1,7 @@
 @import "navbar.css";
 @import "body.css";
 @import "cards.css";
+@import "projets.css";
 
 * {
     margin: 0;
