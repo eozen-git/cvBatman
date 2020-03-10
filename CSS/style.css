@@ -7,6 +7,8 @@
 @import "competences.css";
 @import "projets.css";
 @import "references.css";
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
 
 * {
     margin: 0;
@@ -15,12 +17,13 @@
 }
 
 :root {
-    --main-color: rgb(67, 210, 68);
-    --dark: rgb(67, 210, 68);
-    --light: rgb(227, 255, 227);
+    --main-color: rgb(206, 206, 49);
+    --dark: rgb(29, 28, 28);
+    --dark-sec: rgb(54, 51, 51);
+    --light: rgb(199, 199, 179);
 
     --main-font: 'Oxanium', cursive;
-    --title-font: ;
+    --title-font: 'Permanent Marker', cursive;;
     --main-size: 16px;
     --spacing-sm: calc(var(--spacing) / 2);
     --spacing: 16px;
@@ -30,9 +33,12 @@
 body {
     font-family: var(--main-font);
     font-size: var(--main-size);
+    color: var(--light);
+    background-color: var(--dark);
 }
 
-/*h1,
+h1,
 h2 {
     font-family: var(--title-font);
-}*/
+    color: var(--main-color);
+}
