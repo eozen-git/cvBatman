@@ -102,6 +102,7 @@ legend {
 .coordonnees,
 .formulaire_mail,
 .formulaire_tel {
+    display: flex;
     align-items: center;
     }
 .formulaire_mail button {
@@ -113,7 +114,12 @@ legend {
 .tel_batman {
     margin-top: 8px;
     }
-}   
+.formulaire_mail legend,
+.formulaire_tel legend {
+    width: auto;
+    margin: 0 auto;
+    }
+}  
 @media only screen and (max-width: 360px) {
     .mail_batman,
     .tel_batman {
