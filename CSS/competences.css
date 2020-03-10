@@ -31,7 +31,7 @@
 #competences ul li:hover .comp_description{
     display: inline;
     text-align: center;
-    padding: 5px;
+    padding: var(--spacing-lg);
 }
 
 #competences ul li .comp_nom{
@@ -49,7 +49,7 @@
     .comp_description{
         display: inline;
         text-align: center;
-        padding: 5px;
+        padding: var(--spacing-lg);
     }
 
     #competences ul li:hover{
