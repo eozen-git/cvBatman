@@ -178,8 +178,8 @@
             <h2>Me contacter</h2>
             <div class="contact">
                 <div class="coordonnees">
-                    <div class="mail_batman"><i class="fa fa-"></i><p>Batman@gotham.bunker</p></div>
-                    <div class="tel_batman"><p>212-354-8844</p></div>
+                    <div class="mail_batman"><img src="https://icongr.am/fontawesome/paper-plane.svg?size=48&color=CECE31" alt="Avion en papier"><p>Batman@gotham.bunker</p></div>
+                    <div class="tel_batman"><img src="https://icongr.am/fontawesome/mobile-phone.svg?size=48&color=CECE31" alt="Téléphone mobile"><p>(1)212-354-8844</p></div>
                 </div>
                 <form action="test.php" method="POST" id="formulaire_mail">
                     <fieldset class="formulaire_mail">
@@ -188,7 +188,7 @@
                             <input type="email" id="email" name="email" placeholder="@" required>
                             <label for="message">Message</label>
                             <textarea name="message" id="message" cols="50" rows="10" required></textarea>
-                            <button type="submit" form="formulaire_mail">Envoyer</button>
+                            <button class="button" type="submit" form="formulaire_mail"><span>Envoyer</span></button>
                     </fieldset>                       
                 </form>
                 <form action="test.php" method="POST" id="formulaire_tel">
@@ -200,7 +200,7 @@
                             <input type="date" id="date" name="date">
                             <label for="time" id="time">Entre 8:00 et 20:00</label>
                             <input type="time" min="08:00" max="20:00">
-                            <button type="submit" form="formulaire_tel">Envoyer</button>
+                            <button class="button" type="submit" form="formulaire_tel"><span>Envoyer</span></button>
                     </fieldset>
                 </form>
             </div>
