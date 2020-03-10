@@ -42,3 +42,7 @@ h2 {
     font-family: var(--title-font);
     color: var(--main-color);
 }
+
+main{
+    margin: var(--spacing-lg);
+}
