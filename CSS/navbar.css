@@ -8,7 +8,12 @@ header {
     display: flex;
     justify-content: space-around;
     position: sticky;
-    top: 10px;
+    top: 0px;
+    background-color: var(--main-color);
+}
+.headernav a {
+    color: var(--light);
+    padding: var(--spacing);
 }
 
 .description {
@@ -20,6 +25,9 @@ header {
     flex-direction: column ;
     align-items: center;
     justify-content: space-around;
+}
+.text-description img {
+   margin-right: 5px; 
 }
 .text-description h1 {
     align-self: start;
