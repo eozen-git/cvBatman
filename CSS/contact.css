@@ -1,13 +1,13 @@
 .contact {
     display: flex;
-    align-content: center;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-around;
 }
 .coordonnees {
     display: flex;
     flex-direction: column;
     align-items: left;
+    margin: 16px 0 16px;
 }
 .coordonnees p {
     margin: 33% 0;
@@ -15,8 +15,18 @@
 .formulaire_mail {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     border: none;
+    margin: 16px 0 16px;
+}
+label,
+input,
+textarea,
+legend {
+    margin: 4px 0 4px;
+}
+button {
+    margin-top: 8px;
 }
 .formulaire_mail button {
     align-self: flex-end;
@@ -24,8 +34,11 @@
 .formulaire_tel {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-around;
     border: none;
+    width: 375.683px;
+    height: 328px;
 }
 .footer_container {
     display: flex;
