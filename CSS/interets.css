@@ -8,7 +8,6 @@
 .hobbies figcaption{
     text-align: center;
     
-
 }
 
 .hobbies figure {
@@ -31,7 +30,10 @@
 #interets {
     height: 250px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
     
-    
+}
+
+#interets h2 {
+    margin: var(--spacing) 0px;
 }
