@@ -10,6 +10,7 @@
     width: 15em;
     height: 10em;
     padding: 1em;
+    object-fit: cover;
 }
 
 h2 {
@@ -22,6 +23,8 @@ h2 {
     align-items: center;
 }
 
-#vehicules img {
-    object-fit: cover;
+
+
+#vehicules figcaption {
+    text-align: center;
 }
