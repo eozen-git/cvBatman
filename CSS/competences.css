@@ -7,7 +7,6 @@
  }
 
 #competences ul li{
-    /* border: 1px solid rgb(0, 0, 0); */
     border-radius: 100%;
     height: 340px;
     width: 340px;
@@ -17,11 +16,12 @@
     box-shadow: none;
     margin: var(--spacing);
     background-color: var(--dark-sec);
+    transition: 0.3s;
 }
 
 #competences ul li:hover{
     box-shadow: 0px 0px 5px 2px black;
-    border: 1px solid rgba(0, 0, 0, 0);
+    transition: 0.3s;
 }
 
 .comp_description{
