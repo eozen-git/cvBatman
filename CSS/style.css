@@ -14,7 +14,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 :root {
     --main-color: rgb(206, 206, 49);
     --dark: rgb(29, 28, 28);
