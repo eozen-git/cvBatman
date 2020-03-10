@@ -61,7 +61,7 @@ a:first-of-type img {
     height: 20px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 960px) {
 
     .text-description p {
         font-size: 2vw;
@@ -74,4 +74,11 @@ a:first-of-type img {
         font-size: 2vw;
         padding: 0px;
     }
+    section {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 610px) {
+
 }
