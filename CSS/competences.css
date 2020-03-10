@@ -16,12 +16,12 @@
     box-shadow: none;
     margin: var(--spacing);
     background-color: var(--dark-sec);
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 #competences ul li:hover{
     box-shadow: 0px 0px 5px 2px black;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .comp_description{
