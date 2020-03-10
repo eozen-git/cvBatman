@@ -1,1 +1,18 @@
-#references img {}
+#experiences h2 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#references {
+    display: flex;
+    align-items: center;
+}
+
+#references img {
+    width: 10em;
+}
+
+#experiences {
+    display: flex;
+    justify-content: space-around;
+}
