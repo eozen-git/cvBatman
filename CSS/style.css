@@ -7,6 +7,7 @@
 @import "projets.css";
 @import "references.css";
 @import "mobilite.css";
+@import "footer.css";
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
 
@@ -21,8 +22,6 @@
     --dark: rgb(29, 28, 28);
     --dark-sec: rgb(54, 51, 51);
     --light: rgb(199, 199, 179);
-
-
     --main-font: 'Oxanium', cursive;
     --title-font: 'Permanent Marker', cursive;;
     --main-size: 14pt;
