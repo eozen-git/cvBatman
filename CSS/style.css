@@ -1,9 +1,6 @@
 @import "navbar.css";
 @import "body.css";
 @import "cards.css";
-<<<<<<< HEAD
-@import "projets.css";
-=======
 @import "contact.css";
 @import "interets.css";
 @import "competences.css";
@@ -11,7 +8,6 @@
 @import "references.css";
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
->>>>>>> dev_branch
 
 * {
     margin: 0;
