@@ -19,19 +19,20 @@
     --dark: rgb(67, 210, 68);
     --light: rgb(227, 255, 227);
 
-    --main-font: 'Lato, sans-serif';
-    --title-font: 'cursive';
-
+    --main-font: 'Oxanium', cursive;
+    --title-font: ;
+    --main-size: 16px;
     --spacing-sm: calc(var(--spacing) / 2);
     --spacing: 16px;
     --spacing-lg: calc(var(--spacing) * 2);
 }
 
 body {
-    font-family: var(--main-color);
+    font-family: var(--main-font);
+    font-size: var(--main-size);
 }
 
-h1,
+/*h1,
 h2 {
     font-family: var(--title-font);
-}
+}*/
