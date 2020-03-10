@@ -25,7 +25,9 @@
 
     --main-font: 'Oxanium', cursive;
     --title-font: 'Permanent Marker', cursive;;
-    --main-size: 16px;
+    --main-size: 14pt;
+    --medium-size: 16pt;
+    --large-size: 70pt;
     --spacing-sm: calc(var(--spacing) / 2);
     --spacing: 16px;
     --spacing-lg: calc(var(--spacing) * 2);
@@ -46,4 +48,7 @@ h2 {
 
 main{
     margin: var(--spacing-lg);
+}
+section {
+    padding-top: 64px;
 }

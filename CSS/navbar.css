@@ -20,20 +20,33 @@ header {
 
 .description {
    display: flex;
-
+   /* justify-content: space-between; */
+}
+h1 {
+    font-size: var(--large-size);
+    margin-left: var(--spacing-lg);
+    margin-top: 20%;
 }
 .text-description {
     display: flex;
     flex-direction: column ;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 50%;
+    padding-bottom: 5%;
 }
-.text-description img {
-   margin-right: 5px; 
+.description img {
+   /* margin-right: 5px;  */
+   padding: 5%;
+   justify-self: flex-end;
+   width: 50%;
+
 }
 .text-description h1 {
     align-self: start;
 }
 .text-description p {
-    width: 50%;
+    width: 70%;
+    align-self: flex-end;
+    text-align: right;
 }
