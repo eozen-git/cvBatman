@@ -8,7 +8,6 @@
     flex-direction: column;
     align-items: left;
     justify-content: space-evenly;
-    margin: 16px 0 16px;
 }
 .mail_batman,
 .tel_batman {
@@ -25,7 +24,6 @@
     flex-direction: column;
     align-items: flex-start;
     border: none;
-    margin: 16px 0 16px;
 }
 label,
 input,
@@ -37,21 +35,16 @@ legend {
     font-family: var(--title-font);
     font-size: 1.2rem;
 }
-button {
-    margin-top: 8px;
-}
 .formulaire_mail button {
-    align-self: flex-end;
+    align-self: flex-start;
 }
 .formulaire_tel {
     display: flex;
     flex-direction: column;
+    height: 363px;
     align-items: flex-start;
     justify-content: space-between;
     border: none;
-    width: 375.683px;
-    height: 343px;
-    margin: 16px 0 16p
 }  
 .button {
     display: inline-block;
