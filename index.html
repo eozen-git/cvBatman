@@ -177,7 +177,7 @@
             <h2>Me contacter</h2>
             <div class="contact">
                 <div class="coordonnees">
-                    <div class="mail_batman"><img src="https://icongr.am/fontawesome/paper-plane.svg?size=48&color=CECE31" alt="Avion en papier"><p>Batman@gotham.bunker</p></div>
+                    <div class="mail_batman"><img src="https://icongr.am/fontawesome/paper-plane.svg?size=48&color=CECE31" alt="Avion en papier"><a href="mailto:batman@gotham.cave">Batman@gotham.cave</a></div>
                     <div class="tel_batman"><img src="https://icongr.am/fontawesome/mobile-phone.svg?size=48&color=CECE31" alt="Téléphone mobile"><p>(1)212-354-8844</p></div>
                 </div>
                 <form action="test.php" method="POST" id="formulaire_mail">
@@ -193,6 +193,8 @@
                 <form action="test.php" method="POST" id="formulaire_tel">
                     <fieldset class="formulaire_tel">
                         <legend>Je vous rappelle</legend>
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="name" required>
                             <label for="tel">Téléphone</label>
                             <input type="tel" id="tel" name="tel" minlength="10" placeholder="06" required>
                             <label for="date">Date</label>

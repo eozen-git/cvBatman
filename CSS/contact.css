@@ -15,9 +15,18 @@
     font-size: 1.8rem;
     display: flex;
 }
+.mail_batman a {
+    text-decoration: none;
+    color: var(--main-font); 
+    transition: transform 1s;
+}
+.mail_batman a:hover {
+    transform: scale(1.25);
+    color: var(--main-color);
+}
 .mail_batman img,
 .tel_batman img {
-    margin-right: 16px;
+    margin-right: 48px;
 }
 .formulaire_mail {
     display: flex;
