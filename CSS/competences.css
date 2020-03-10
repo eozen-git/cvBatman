@@ -31,8 +31,63 @@
 #competences ul li:hover .comp_description{
     display: inline;
     text-align: center;
+    padding: 5px;
+}
+
+#competences ul li .comp_nom{
+    font-size: var(--medium-size);
 }
 
 #competences ul li:hover .comp_nom{
     display: none;
+}
+
+@media screen and (max-width: 768px){
+    #competences ul li{
+        position: relative;
+    }
+    .comp_description{
+        display: inline;
+        text-align: center;
+        padding: 5px;
+    }
+
+    #competences ul li:hover{
+        box-shadow: none;
+    }
+
+    #competences ul li .comp_nom{
+        display: inline;
+        position: absolute;
+        top: 30px;
+        text-align: center;
+    }
+    #competences ul li:hover .comp_nom{
+        display: inline;
+    }
+
+}
+
+@media screen and (max-width: 460px){
+    #competences ul li{
+        height: 220px;
+        width: 220px;
+    }
+    #competences ul li:hover .comp_description{
+        display: none;
+    }
+    #competences ul li:hover .comp_nom{
+        display: inline;
+    }
+    #competences ul li:hover{
+        box-shadow: none;
+    }
+
+    .comp_description{
+        display: none;
+    }
+
+    #competences ul li .comp_nom{
+        top: 100px;
+    }
 }
