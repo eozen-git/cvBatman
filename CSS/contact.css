@@ -1,0 +1,14 @@
+.contact {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2%;
+}
+.coordonnees {
+    display: flex;
+    flex-direction: column;
+}
+.coordonnees p {
+    align-self: flex-end;
+}
