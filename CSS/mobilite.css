@@ -1,4 +1,4 @@
-/*#mobilite {
+#mobilite {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -24,4 +24,4 @@ h2 {
 
 #vehicules img {
     object-fit: cover;
-}*/
+}
