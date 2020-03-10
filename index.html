@@ -5,26 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random</title>
-    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="CSS/style.css">
     <meta name="author" content="Julien Gault, Julien Jourden, Anthony Rossignol, Yannice Maladin, Oleg Chenesseau">
 </head>
 
 <body>
     <header>
-        <nav class="headernav">
-            <a href="">Compétence</a>
-            <a href="">Projets</a>
-            <a href="">Expériences</a>
-            <a href="">Intérêts</a>
-            <a href="">Contact</a>
-        </nav>
-        <h1>Batman</h1>
-        <figure>
-            <img src="" alt="">
-            <figcaption></figcaption>
-        </figure>
-
+ 
         <div class="description">
             <div class="text-description">
                 <h1>Batman</h1>
@@ -34,22 +21,28 @@
         </div>
 
     </header>
-
+    <nav class="headernav">
+        <a href="">Compétence</a>
+        <a href="">Projets</a>
+        <a href="">Expériences</a>
+        <a href="">Intérêts</a>
+        <a href="">Contact</a>
+    </nav>
     <main>
         <section id="competences">
             <h2>Compétences</h2>
             <ul>
                 <li>
-                    <p>Compétence 1</p>
-                    <p class="click">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus distinctio, quas consequatur dolorem laudantium esse illo natus fuga cum corrupti dolore officia harum sunt aut architecto earum accusantium quae pariatur.</p>
+                    <p class="comp_nom">Compétence 1</p>
+                    <p class="comp_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus distinctio, quas consequatur dolorem laudantium esse illo natus fuga cum corrupti dolore officia harum sunt aut architecto earum accusantium quae pariatur.</p>
                 </li>
                 <li>
-                    <p>Compétence 2</p>
-                    <p class="click">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, doloremque quibusdam ea sed aspernatur delectus laboriosam, quam quisquam minus nulla voluptatum iste repudiandae incidunt perferendis, ad excepturi repellat provident dolor?</p>
+                    <p class="comp_nom">Compétence 2</p>
+                    <p class="comp_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, doloremque quibusdam ea sed aspernatur delectus laboriosam, quam quisquam minus nulla voluptatum iste repudiandae incidunt perferendis, ad excepturi repellat provident dolor?</p>
                 </li>
                 <li>
-                    <p>Compétence 3</p>
-                    <p class="click">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam maxime eos aliquid, minima officia nisi. Quaerat a eligendi dolore accusamus quas asperiores, odio consectetur unde laboriosam quod modi, numquam veritatis.</p>
+                    <p class="comp_nom">Compétence 3</p>
+                    <p class="comp_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam maxime eos aliquid, minima officia nisi. Quaerat a eligendi dolore accusamus quas asperiores, odio consectetur unde laboriosam quod modi, numquam veritatis.</p>
                 </li>
             </ul>
         </section>
@@ -78,43 +71,130 @@
                   <p>Architect & Engineer</p> 
                 </div>
             </div>
+            
         </section>
-        
+
         <section id="experiences">
 
+            <div id="references">
+                <figure>
+                    <img src="" alt="logo DC">
+                    <figcaption></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="" alt="logo Wonder Woman">
+                    <figcaption></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="" alt="Superman">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+
+            <div id="formation">
+                <ul>
+                    <li>ligue des Justiciers</li>
+                    <li>Ligue des Ombres</li>
+                    <li></li>
+                </ul>
+            </div>
         </section>
 
         <section id="mobilite">
+            <div>
+                <h2>Mobilité géographique</h2>
+                <div id="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85640.15228716246!2d1.8421689270642467!3d47.873394653107624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4e4d49df386e3%3A0x9eb97de479c38029!2zT3Jsw6lhbnM!5e0!3m2!1sfr!2sfr!4v1583830943819!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
 
-        
+            <div>
+                <h2>Véhicules </h2>
+
+                <div id="vehicules">
+                    <figure>
+                        <img src="Images/batmobile.jpg" alt="Batmobile">
+                        <figcaption>Batmobile</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="Images/batwing.jpg" alt="Batwing">
+                        <figcaption>Batwing</figcaption>
+                    </figure>
+                </div>
+            </div>
+
         </section>
 
         <section id="interets">
-
+            <h2>Intérêts</h2>
+            <div id="hobbies">
+                <figure>
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <figcaption>Intérêt 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <figcaption>Intérêt 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <figcaption>Intérêt 3</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <figcaption>Intérêt 4</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://via.placeholder.com/150" alt="">
+                    <figcaption>Intérêt 5</figcaption>
+                </figure>
+            </div>
         </section>
-        
-        <section class="contact" id="contact">
+
+        <section id="contact">
+
+
             <h2>Me contacter</h2>
-            <form>
-                <label for="email">Mail</label>
-                <input type="email" id="email" name="email" placeholder="@" required>
-                <label for="tel">Téléphone</label>
-                <input type="number" id="tel" name="tel" min="0" max="10">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            </form>
-            <div class="coordonnees">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque non excepturi explicabo, provident tempora maiores facilis nihil, repellendus ratione blanditiis, exercitationem magnam debitis et? In ea unde ratione corrupti ullam!</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, inventore nam dignissimos debitis quo rerum, ipsum cum soluta voluptatibus adipisci voluptatem quisquam, esse dicta quasi quod maxime. Animi, natus sit!</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos laudantium architecto voluptas consequatur sint, numquam maxime nulla velit praesentium debitis, autem sequi natus, esse impedit et iure eum unde pariatur?</p>
+            <div class="contact">
+                <div class="coordonnees">
+                    <p>E-mail</p>
+                    <p>Téléphone</p>
+                </div>
+                <form action="test.php" method="POST" id="formulaire_mail">
+                    <fieldset class="formulaire_mail">
+                        <legend>M'envoyer un message</legend>
+                            <label for="email">Mail</label>
+                            <input type="email" id="email" name="email" placeholder="@" required>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="50" rows="10" required></textarea>
+                            <button type="submit" form="formulaire_mail">Envoyer</button>
+                    </fieldset>                       
+                </form>
+                <form action="test.php" method="POST" id="formulaire_tel">
+                    <fieldset class="formulaire_tel">
+                        <legend>Je vous rappelle</legend>
+                            <label for="tel">Téléphone</label>
+                            <input type="tel" id="tel" name="tel" minlength="10" placeholder="06">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" name="date">
+                            <label for="time" id="time">Entre 8:00 et 20:00</label>
+                            <input type="time" min="08:00" max="20:00">
+                            <button type="submit" form="formulaire_tel">Envoyer</button>
+                    </fieldset>
+                </form>
             </div>
         </section>
     </main>
 
     <footer>
-
+        <ul class="footer_container">
+            <li><a href="https://www.twitter.com"><img src="" alt="Twitter"></a></li>
+            <li><a href="https://www.linkedin.com"><img src="" alt="Linkedin"></a></li>
+            <li><a href="https://www.viadeo.com"><img src="" alt="Viadeo"></a></li>
+        </ul>
     </footer>
 
-</body>
-
-</html>
+</body></html>
