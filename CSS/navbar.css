@@ -12,8 +12,9 @@ header {
     background-color: var(--main-color);
 }
 .headernav a {
-    color: var(--light);
+    color: var(--dark);
     padding: var(--spacing);
+    font-family: var(--title-font);
 }
 
 .description {
