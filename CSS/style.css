@@ -35,12 +35,11 @@
     --spacing: 16px;
     --spacing-lg: calc(var(--spacing) * 2);
 }
-
 body {
     font-family: var(--main-font);
     font-size: var(--main-size);
     color: var(--light);
-    background-color: var(--dark);
+    background-image:url("../Images/asfalt.png");
 }
 
 h1,
@@ -48,7 +47,6 @@ h2 {
     font-family: var(--title-font);
     color: var(--main-color);
 }
-
 main {
     margin: var(--spacing-lg);
 }
