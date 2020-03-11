@@ -22,4 +22,8 @@ header {
     /*font-size: 2vw;*/
 }
 
-≈
+
+.headernav a:hover {
+    background-color: var(--dark);
+    color: var(--main-color);
+}
