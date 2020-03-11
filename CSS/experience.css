@@ -16,3 +16,11 @@
     display: flex;
     justify-content: space-around;
 }
+
+#projets {
+    padding-top: 0.5em;
+}
+
+#arrestations {
+    text-align: center;
+}
