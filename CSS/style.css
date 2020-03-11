@@ -35,6 +35,9 @@
     --spacing-sm: calc(var(--spacing) / 2);
     --spacing: 16px;
     --spacing-lg: calc(var(--spacing) * 2);
+
+    --breakpoint-tablet: 768px;
+    --breakpoint-mobile: 414px;
 }
 
 body {
@@ -42,11 +45,11 @@ body {
     font-size: var(--main-size);
     color: var(--light);
 
-    background-image: url(../background/batman.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+    background-image: url(../background/dark_leather_@2X.png);
+    /* background-attachment: fixed; */
+    /* background-repeat: repeat; */
+    /* background-size: cover; */
+    /* background-position: bottom; */
 }
 
 h1,
