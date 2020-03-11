@@ -33,4 +33,25 @@ header {
         display: none;
     }
     
+    #links {
+        width: 100%;
+        height: 100%;
+        background-color: salmon;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .vide {
+
+        display: block;
+        background-color: var(--main-color);
+        height: 80vh;
+        width: 100%;       
+    }
+    .vide a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
 }
