@@ -37,12 +37,13 @@ header {
     }
     .main-navigation {
         display: block;
+        position: fixed;
     }
     .links:target {
         display: flex;
         width: 100%;
         height: 100%;
-        background-color: salmon;
+        background-color: var(--main-color);
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
@@ -50,16 +51,12 @@ header {
         z-index: 1000;
         top: 0;
     }
-    .vide {
-
-        display: block;
-        background-color: var(--main-color);
-        height: 80vh;
-        width: 100%;       
+    .links a {
+        color: var(--dark);
+        font-size: 10vw;
+        text-decoration: none;
     }
-    .vide a {
-        display: block;
-        width: 100%;
-        height: 100%;
+    .home {
+        height: 30vw;
     }
 }
