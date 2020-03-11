@@ -16,7 +16,7 @@
     box-shadow: none;
     margin: var(--spacing);
     background-color: var(--dark-sec);
-    transition: 0.1s;
+    /* transition: 0.1s; */
 }
 
 #competences ul li:nth-of-type(1){
@@ -32,8 +32,9 @@
 }
 
 #competences ul li:hover{
-    box-shadow: 0px 0px 5px 2px black;
-    transition: 0.1s;
+    /* box-shadow: 0px 0px 5px 2px black; */
+    box-shadow:inset 0 0 0 200px rgba(0,0,0,0.75);
+    /* transition: 0.1s; */
 }
 
 .comp_description{
@@ -44,7 +45,7 @@
     display: inline;
     text-align: center;
     margin: var(--spacing-lg);
-    background-color: rgba(0, 0, 0, 0.75);
+    /* background-color: rgba(0, 0, 0, 0.75); */
     border-radius: 4px;
     padding: 5px;
 }
@@ -63,12 +64,13 @@
 @media screen and (max-width: 768px){
     #competences ul li{
         position: relative;
+        box-shadow:inset 0 0 0 200px rgba(0,0,0,0.75);
     }
     .comp_description{
         display: inline;
         text-align: center;
         margin: var(--spacing-lg);
-        background-color: rgba(0, 0, 0, 0.75);
+        /* background-color: rgba(0, 0, 0, 0.75); */
         border-radius: 4px;
     }
 
@@ -81,6 +83,7 @@
         position: absolute;
         top: 30px;
         text-align: center;
+        background-color: rgba(0, 0, 0, 0);
     }
     #competences ul li:hover .comp_nom{
         display: inline;
