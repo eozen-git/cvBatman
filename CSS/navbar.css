@@ -27,3 +27,9 @@ header {
     background-color: var(--dark);
     color: var(--main-color);
 }
+
+@media screen and (max-width: 610px) {
+    .headernav {
+        display: none;
+    }
+}
