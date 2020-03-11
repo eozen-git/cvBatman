@@ -8,6 +8,7 @@
 @import "references.css";
 @import "mobilite.css";
 @import "footer.css";
+@import "experience.css";
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
 
@@ -17,6 +18,7 @@
     box-sizing: border-box;
     outline: none;
 }
+
 :root {
 
     --main-color: rgb(206, 206, 49);
@@ -24,7 +26,8 @@
     --dark-sec: rgb(54, 51, 51);
     --light: rgb(199, 199, 179);
     --main-font: 'Oxanium', cursive;
-    --title-font: 'Permanent Marker', cursive;;
+    --title-font: 'Permanent Marker', cursive;
+    ;
     --main-size: 14pt;
     --medium-size: 16pt;
     --large-size: 70pt;
@@ -46,9 +49,10 @@ h2 {
     color: var(--main-color);
 }
 
-main{
+main {
     margin: var(--spacing-lg);
 }
+
 section {
     padding-top: 64px;
 }

@@ -1,0 +1,43 @@
+@keyframes animation {
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+
+#projets {
+    padding-top: 0.5em;
+}
+
+#experiences {
+    display: flex;
+    justify-content: space-around;
+}
+
+#experiences h2 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#references {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#references img {
+    width: 10em;
+}
+
+#references img:hover {
+    animation: animation 0.2s infinite;
+    width: 10.2em;
+}
+
+#arrestations {
+    text-align: center;
+}

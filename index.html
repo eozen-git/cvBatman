@@ -62,10 +62,12 @@
                     <p class="comp_description">Par l'alliance de mes capacités physiques hors-normes et de mes bat-gadgets fabriqués par moi-même, les bandits n'échappent plus au joug sacré de la justice des hommes.</p>
                 </li>
             </ul>
-        </section>     
+        </section>
+
+        <h2>Expérience</h2>
+        <h3 id="arrestations">Arrestations</h3>
+
         <section id="projets">
-            <h2>Projets</h2>
-            
             <div class="card-group">
                 <div class="card">
                     <div class="card-img">
@@ -73,62 +75,66 @@
                     </div>
                     <div class="container">
                         <div class="card-text">
-                            <h4><b>Joker</b></h4> 
+                            <h4><b>Joker</b></h4>
                             <p>Arrêté le 20/02/2020</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="card">
                     <div class="card-img">
                         <img src="Images/penguin.jpg" alt="Photo du pingouin">
-                    </div> 
+                    </div>
                     <div class="container">
                         <div class="card-text">
-                            <h4><b>Oswald Cobblepot</b></h4> 
+                            <h4><b>Oswald Cobblepot</b></h4>
                             <p>Arrêté le 20/03/2020</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="card">
                     <div class="card-img">
                         <img src="Images/mystery_man.jpg" alt="Photo d'Edward Nigma">
-                    </div> 
+                    </div>
                     <div class="container">
-                      <div class="card-text">
-                        <h4><b>Edward Nigma</b></h4> 
-                        <p>Arrêté le 20/03/2020</p>
-                      </div> 
+                        <div class="card-text">
+                            <h4><b>Edward Nigma</b></h4>
+                            <p>Arrêté le 20/03/2020</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="experiences">
+            <div>
+                <h2>Références</h2>
+                <div id="references">
+                    <figure>
+                        <img src="Images/logoJL.jpg" alt="logo DC">
+                        <figcaption></figcaption>
+                    </figure>
 
-            <div id="references">
-                <figure>
-                    <img src="" alt="logo DC">
-                    <figcaption></figcaption>
-                </figure>
+                    <figure>
+                        <img src="Images/logoWW.png" alt="logo Wonder Woman">
+                        <figcaption></figcaption>
+                    </figure>
 
-                <figure>
-                    <img src="" alt="logo Wonder Woman">
-                    <figcaption></figcaption>
-                </figure>
+                    <figure>
+                        <img src="Images/logoSM.png" alt="Superman">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
 
-                <figure>
-                    <img src="" alt="Superman">
-                    <figcaption></figcaption>
-                </figure>
             </div>
 
+
             <div id="formation">
+                <h2>Formation</h2>
                 <ul>
-                    <li>ligue des Justiciers</li>
+                    <li>Ligue des Justiciers</li>
                     <li>Ligue des Ombres</li>
-                    <li></li>
                 </ul>
             </div>
         </section>
@@ -142,8 +148,7 @@
             </div>
 
             <div>
-                <h2>Véhicules </h2>
-
+                <h2>Véhicules d'intervention rapide </h2>
                 <div id="vehicules">
                     <figure>
                         <img src="Images/batmobile.jpg" alt="Batmobile">
@@ -153,6 +158,11 @@
                     <figure>
                         <img src="Images/batwing.jpg" alt="Batwing">
                         <figcaption>Batwing</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="Images/batpod.jpg" alt="Batmobile">
+                        <figcaption>Batpod</figcaption>
                     </figure>
                 </div>
             </div>
@@ -183,7 +193,7 @@
                     <figcaption>voyage</figcaption>
                 </figure>
             </div>
-           
+
         </section>
 
         <section id="contact">
@@ -198,25 +208,25 @@
                 <form action="test.php" method="POST" id="formulaire_mail">
                     <fieldset class="formulaire_mail">
                         <legend>M'envoyer un message</legend>
-                            <label for="email">Mail</label>
-                            <input type="email" id="email" name="email" placeholder="@" required>
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" cols="50" rows="10" required></textarea>
-                            <button class="button" type="submit" form="formulaire_mail"><span>Envoyer</span></button>
-                    </fieldset>                       
+                        <label for="email">Mail</label>
+                        <input type="email" id="email" name="email" placeholder="@" required>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="50" rows="10" required></textarea>
+                        <button class="button" type="submit" form="formulaire_mail"><span>Envoyer</span></button>
+                    </fieldset>
                 </form>
                 <form action="test.php" method="POST" id="formulaire_tel">
                     <fieldset class="formulaire_tel">
                         <legend>Je vous rappelle</legend>
-                            <label for="name">Nom</label>
-                            <input type="text" id="name" name="name" required>
-                            <label for="tel">Téléphone</label>
-                            <input type="tel" id="tel" name="tel" minlength="10" placeholder="06" required>
-                            <label for="date">Date</label>
-                            <input type="date" id="date" name="date">
-                            <label for="time" id="time">Entre 8:00 et 20:00</label>
-                            <input type="time" min="08:00" max="20:00">
-                            <button class="button" type="submit" form="formulaire_tel"><span>Envoyer</span></button>
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="tel">Téléphone</label>
+                        <input type="tel" id="tel" name="tel" minlength="10" placeholder="06" required>
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date">
+                        <label for="time" id="time">Entre 8:00 et 20:00</label>
+                        <input type="time" min="08:00" max="20:00">
+                        <button class="button" type="submit" form="formulaire_tel"><span>Envoyer</span></button>
                     </fieldset>
                 </form>
             </div>
