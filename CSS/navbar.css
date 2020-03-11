@@ -20,6 +20,9 @@ header {
     text-decoration: none;
     /*font-size: 2vw;*/
 }
+.main-navigation {
+    display: none;
+}
 
 .description {
    display: flex;
@@ -81,4 +84,11 @@ a:first-of-type img {
 
 @media screen and (max-width: 610px) {
 
+    .main-navigation {
+        display: none;
+    }
+    .headernav {
+        display: none;
+    }
+    
 }
