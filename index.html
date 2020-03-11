@@ -10,7 +10,18 @@
 </head>
 
 <body>
+    <a class="main-navigation" href="#links"><img src="Images/batlogo.png" alt=""></a>
+    <div class="links" id="links">
+        <a href="#haut"><img class="home" src="Images/batlogo.png" alt=""></a>
+        <a href="#competences">Compétences</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#mobilite">Mobilité</a>
+        <a href="#interets">Intérêts</a>
+        <a href="#contact">Contact</a>
+        <a href="#" class="close">X</a>
+    </div>
     <header id="haut">
+
         <div class="description">
             <div class="text-description">
                 <div id="noms">
@@ -30,42 +41,20 @@
         </div>
 
     </header>
-    <nav class="headernav">
-        <a href="#haut"><img src="Images/batlogo.png" alt=""></a>
+    <nav class="headernav" id="headernav">
+        <a href="#haut"><img class="pix-home" src="Images/batlogo.png" alt=""></a>
         <a href="#competences">Compétences</a>
         <a href="#experiences">Expériences</a>
         <a href="#mobilite">Mobilité</a>
         <a href="#interets">Intérêts</a>
         <a href="#contact">Contact</a>
     </nav>
-    <nav class="main-navigation">
-        <div class="nav-wrapper">
-            <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
-            <label for="menu-checkbox" class="menu-toggle">≡ Menu</label>
-            <ul class="menu">
-                <li><a href="#haut"><img src="Images/batlogo.png" alt=""></a></li>
-                <a href="#competences">
-                    <li>Compétences</li>
-                </a>
-                <a href="#experiencs">
-                    <li>Expériences</li>
-                </a>
-                <a href="#mobilite">
-                    <li>Mobilité</li>
-                </a>
-                <a href="#interets">
-                    <li>Intérêts</li>
-                </a>
-                <a href="#contact">
-                    <li>Contact</li>
-                </a>
-            </ul>
-        </div>
-    </nav>
 
     <main>
         <section id="competences">
-            <h2>Compétences</h2>
+            <div class="titres">
+                <h2>Compétences</h2>
+            </div>
             <ul>
                 <li>
                     <p class="comp_nom">Discretion</p>
@@ -82,7 +71,9 @@
             </ul>
         </section>
 
-        <h2 id="xp">Expérience</h2>
+        <div class="titres">
+            <h2 id="xp">Expérience</h2>
+        </div>
         <h3 id="arrestations">Arrestations</h3>
 
         <section id="projets">
@@ -127,7 +118,9 @@
 
         <section id="experiences">
             <div>
-                <h2>Références</h2>
+                <div class="titres">
+                    <h2>Références</h2>
+                </div>
                 <div id="references">
                     <figure>
                         <img src="Images/logoJL.jpg" alt="logo DC">
@@ -149,7 +142,9 @@
 
 
             <div id="formation">
-                <h2>Formation</h2>
+                <div class="titres">
+                    <h2>Formation</h2>
+                </div>
                 <ul>
                     <li>Ligue des Justiciers</li>
                     <li>Ligue des Ombres</li>
@@ -159,14 +154,18 @@
 
         <section id="mobilite">
             <div>
-                <h2>Mobilité géographique</h2>
+                <div class="titres">
+                    <h2>Mobilité</h2>
+                </div>
                 <div id="maps">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85640.15228716246!2d1.8421689270642467!3d47.873394653107624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4e4d49df386e3%3A0x9eb97de479c38029!2zT3Jsw6lhbnM!5e0!3m2!1sfr!2sfr!4v1583830943819!5m2!1sfr!2sfr" width="550" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
             </div>
 
             <div>
-                <h2>Véhicules d'intervention rapide </h2>
+                <div class="titres">
+                    <h2>Véhicules</h2>
+                </div>
                 <div id="vehicules">
                     <figure>
                         <img src="Images/batmobile.jpg" alt="Batmobile">
@@ -188,7 +187,9 @@
         </section>
 
         <section id="interets">
-            <h2>Intérêts</h2>
+            <div class="titres">
+                <h2>Intérêts</h2>
+            </div>
             <div class="hobbies">
                 <figure>
                     <img src="Images/karate-4002261__340.webp" alt="">
@@ -216,8 +217,9 @@
 
         <section id="contact">
 
-
-            <h2>Me contacter</h2>
+            <div class="titres">
+                <h2>Me contacter</h2>
+            </div>
             <div class="contact">
                 <form action="test.php" method="POST" id="formulaire_mail">
                     <fieldset class="formulaire_mail">
