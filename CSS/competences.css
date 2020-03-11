@@ -74,9 +74,6 @@
         border-radius: 4px;
     }
 
-    #competences ul li:hover{
-        box-shadow: none;
-    }
 
     #competences ul li .comp_nom{
         display: inline;
@@ -102,10 +99,6 @@
     #competences ul li:hover .comp_nom{
         display: inline;
     }
-    #competences ul li:hover{
-        box-shadow: none;
-    }
-
     .comp_description{
         display: none;
     }
