@@ -38,6 +38,12 @@ header {
     .main-navigation {
         display: block;
         position: fixed;
+        right: 5px;
+        top: 5px;
+        
+    }
+    .main-navigation img {
+        height: 5vh;
     }
     .links:target {
         display: flex;
