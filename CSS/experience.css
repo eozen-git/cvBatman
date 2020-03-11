@@ -48,3 +48,17 @@
 #formation ul li {
     list-style: none;
 }
+
+@media screen and (max-width: 768px) {
+    #experiences {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #references img:hover {
+        animation: none;
+        width: 10em;
+    }
+}

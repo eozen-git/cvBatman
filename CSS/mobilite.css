@@ -52,8 +52,11 @@
     }
 
     .enfants {
-        padding: 3vw 0;
+        padding: 10vw 0;
     }
 
+    #formation {
+        padding-top: 10vh;
+    }
 
 }
