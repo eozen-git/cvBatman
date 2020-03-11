@@ -78,8 +78,15 @@ main {
 }
 
 section {
+
     padding-top: 64px;
     margin-bottom: var(--spacing-lg);
+}
+
+@media screen and (min-width: var(--b)){
+header, section, footer {
+    max-height: 500px;
+}
 }
 
 
