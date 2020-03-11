@@ -40,7 +40,7 @@ body {
     font-family: var(--main-font);
     font-size: var(--main-size);
     color: var(--light);
-    background-image:url("../Images/asfalt.png");
+    background-image:url("../background/dark_leather.png");
 }
 
 h1,
