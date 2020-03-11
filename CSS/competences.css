@@ -16,12 +16,25 @@
     box-shadow: none;
     margin: var(--spacing);
     background-color: var(--dark-sec);
-    transition: 0.1s;
+    /* transition: 0.1s; */
+}
+
+#competences ul li:nth-of-type(1){
+    background-image: url("../Images/competences_discretion.jpg");
+}
+
+#competences ul li:nth-of-type(2){
+    background-image: url("../Images/competences_investigation.jpg");
+}
+
+#competences ul li:nth-of-type(3){
+    background-image: url("../Images/competences_justice.jpg");
 }
 
 #competences ul li:hover{
-    box-shadow: 0px 0px 5px 2px black;
-    transition: 0.1s;
+    /* box-shadow: 0px 0px 5px 2px black; */
+    box-shadow:inset 0 0 0 200px rgba(0,0,0,0.75);
+    /* transition: 0.1s; */
 }
 
 .comp_description{
@@ -31,11 +44,17 @@
 #competences ul li:hover .comp_description{
     display: inline;
     text-align: center;
-    padding: var(--spacing-lg);
+    margin: var(--spacing-lg);
+    /* background-color: rgba(0, 0, 0, 0.75); */
+    border-radius: 4px;
+    padding: 5px;
 }
 
 #competences ul li .comp_nom{
     font-size: var(--medium-size);
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 5px;
 }
 
 #competences ul li:hover .comp_nom{
@@ -45,11 +64,14 @@
 @media screen and (max-width: 768px){
     #competences ul li{
         position: relative;
+        box-shadow:inset 0 0 0 200px rgba(0,0,0,0.75);
     }
     .comp_description{
         display: inline;
         text-align: center;
-        padding: var(--spacing-lg);
+        margin: var(--spacing-lg);
+        /* background-color: rgba(0, 0, 0, 0.75); */
+        border-radius: 4px;
     }
 
     #competences ul li:hover{
@@ -61,6 +83,7 @@
         position: absolute;
         top: 30px;
         text-align: center;
+        background-color: rgba(0, 0, 0, 0);
     }
     #competences ul li:hover .comp_nom{
         display: inline;

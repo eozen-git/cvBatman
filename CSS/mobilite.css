@@ -13,7 +13,7 @@
 
 #mobilite h2 {
     text-align: center;
-    padding-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 #mobilite img {
@@ -22,6 +22,7 @@
 
 #mobilite img:hover {
     opacity: 1;
+    transform: scale(1.1, 1.1);
 }
 
 

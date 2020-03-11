@@ -20,7 +20,7 @@
 
 #experiences h2 {
     text-align: center;
-    padding-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 #references {
@@ -40,4 +40,8 @@
 
 #arrestations {
     text-align: center;
+}
+
+#xp {
+    margin-bottom: 2em;
 }
