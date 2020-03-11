@@ -28,7 +28,7 @@
     --light: rgb(199, 199, 179);
     --main-font: 'Oxanium', cursive;
     --title-font: 'Permanent Marker', cursive;
-    
+
     --main-size: 14pt;
     --medium-size: 16pt;
     --large-size: 70pt;
@@ -50,10 +50,10 @@ h2 {
     color: var(--main-color);
 }
 
-h2{
+h2 {
     text-align: center;
     background-color: black;
-    border-radius: 50%;
+    border-radius: 5px;
     width: 60%;
     margin: auto;
 }
