@@ -52,3 +52,10 @@ main{
 section {
     padding-top: 64px;
 }
+
+
+@media screen and (max-width: 960px) {
+    section {
+        padding-top: 3%;
+    }
+}
