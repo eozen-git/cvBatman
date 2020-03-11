@@ -40,8 +40,15 @@
 
 #arrestations {
     text-align: center;
+    padding-top: 1em;
 }
 
-#xp {
-    margin-bottom: 2em;
+#formation ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formation ul li {
+    list-style: none;
 }
