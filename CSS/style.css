@@ -36,11 +36,17 @@
     --spacing: 16px;
     --spacing-lg: calc(var(--spacing) * 2);
 }
+
 body {
     font-family: var(--main-font);
     font-size: var(--main-size);
     color: var(--light);
-    background-image:url("../Images/asfalt.png");
+
+    background-image: url(../background/batman.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
 h1,
