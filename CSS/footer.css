@@ -1,7 +1,8 @@
 footer {
     display: flex;
     justify-content: space-evenly;
-    background-color: var(--main-color);
+    background-color: var(--dark);
+    height: 175px;
     padding: 16px 0;
 }
 .footer_links {
@@ -16,6 +17,10 @@ footer {
 .footer_links li a {
     text-decoration: none;
 }
+.footer_links li a img {
+    height: 64px;
+    width: 64px;
+}
 .footer_links li a:visited,
 .footer_links li a:hover {
     text-decoration: none;
@@ -24,18 +29,25 @@ footer {
 .coordonnees {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 30%;
+}
+.mail_batman {
+    padding-bottom: 8px;
+}
+.tel_batman {
+    padding-top: 8px;
 }
 .mail_batman,
 .tel_batman {
     font-family: var(--main-font);
-    color: var(--dark);
+    color: var(--main-color);
+    font-size: var(--medium-size);
     display: flex;
 }
 
-footer p {
+footer p,
+footer img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,26 +57,21 @@ footer p {
     text-decoration: none;
     transition: transform 1s;
 }
-.mail_batman a:hover {
-    transform: scale(1.40);
-}
+.mail_batman a:hover,
 .tel_batman a:hover {
-    transform: scale(1.50);
+    transform: scale(1.25);
 }
-.mail_batman a img {
-    margin-right: 32px;
-    height: 32px;
-    width: 32px;
-}
+.mail_batman a img,
 .tel_batman a img {
-    margin-right: 32px;
-    height: 32px;
-    width: 32px;
+    margin-right: 8px;
+    height: 64px;
+    width: 64px;
 }
 .mail_batman li p {
     padding: auto;
 }
 .copyright {
-    color: var(--dark);
+    color: var(--main-color);
     width: 30%;
+    font-size: var(--medium-size);
 }
