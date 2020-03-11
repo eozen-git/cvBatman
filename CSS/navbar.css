@@ -11,8 +11,9 @@ header {
     top: 0px;
     z-index: 1000;
     background-color: var(--main-color);
-    
+
 }
+
 .headernav a {
     color: var(--dark);
     padding: var(--spacing);
@@ -21,57 +22,4 @@ header {
     /*font-size: 2vw;*/
 }
 
-.description {
-   display: flex;
-   justify-content: space-between;
-}
-h1 {
-    font-size: 70pt;
-    margin-left: var(--spacing-lg);
-    margin-top: 10%;
-    
-}
-.text-description {
-    display: flex;
-    flex-direction: column ;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-    height: 45vw;
-}
-.description img {
-
-   padding: 2.5% 2.5% 1%;
-   justify-self: flex-end;
-   width: 40%;
-   height: 45vw;
-
-}
-.text-description h1 {
-    align-self: start;
-}
-.text-description p {
-    
-    align-self: flex-end;
-    text-align: right;
-    font-size: 20pt;
-    padding-bottom: 5%;
-}
-a:first-of-type img {
-    height: 20px;
-}
-
-@media screen and (max-width: 950px) {
-
-    .text-description p {
-        font-size: 2vw;
-    }
-
-    h1 {
-        font-size: 10vw;
-    }
-    .headernav a {
-        font-size: 2vw;
-        padding: 0px;
-    }
-}
+≈
