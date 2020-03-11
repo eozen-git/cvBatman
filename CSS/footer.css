@@ -1,14 +1,70 @@
 footer {
+    display: flex;
+    justify-content: space-evenly;
     background-color: var(--main-color);
     padding: 16px 0;
 }
-.footer_container {
+.footer_links {
+    width: 30%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 }
-.footer_container li {
+.footer_links li {
     list-style-type: none;
 }
-.footer_container li a {
+.footer_links li a {
     text-decoration: none;
+}
+.footer_links li a:visited,
+.footer_links li a:hover {
+    text-decoration: none;
+    color: var(--dark);
+}
+.coordonnees {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.mail_batman,
+.tel_batman {
+    font-family: var(--main-font);
+    color: var(--dark);
+    display: flex;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail_batman a,
+.tel_batman a {
+    text-decoration: none;
+    transition: transform 1s;
+}
+.mail_batman a:hover {
+    transform: scale(1.40);
+}
+.tel_batman a:hover {
+    transform: scale(1.50);
+}
+.mail_batman a img {
+    margin-right: 32px;
+    height: 32px;
+    width: 32px;
+}
+.tel_batman a img {
+    margin-right: 32px;
+    height: 32px;
+    width: 32px;
+}
+.mail_batman li p {
+    padding: auto;
+}
+.copyright {
+    color: var(--dark);
+    width: 30%;
 }

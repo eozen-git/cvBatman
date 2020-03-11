@@ -36,12 +36,11 @@
     --spacing: 16px;
     --spacing-lg: calc(var(--spacing) * 2);
 }
-
 body {
     font-family: var(--main-font);
     font-size: var(--main-size);
     color: var(--light);
-    background-color: var(--dark);
+    background-image:url("../Images/asfalt.png");
 }
 
 h1,
@@ -50,12 +49,22 @@ h2 {
     color: var(--main-color);
 }
 
-h2 {
-    text-align: center;
-    background-color: black;
-    border-radius: 5px;
-    width: 60%;
+.titres{
+    background-image: url("../Images/background_titres.png");
+    width: 400px;
+    height: 134px;
     margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    /* border-radius: 5px; */
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    
 }
 
 main {
