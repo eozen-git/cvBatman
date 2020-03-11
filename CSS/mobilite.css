@@ -4,8 +4,6 @@
     justify-content: space-around;
 }
 
-#maps {}
-
 #vehicules img {
     width: 15em;
     height: 10em;
@@ -15,12 +13,24 @@
 
 #mobilite h2 {
     text-align: center;
-    padding-bottom: 2em;
+    margin-bottom: 2em;
 }
+
+#mobilite img {
+    opacity: 0.5;
+}
+
+#mobilite img:hover {
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+}
+
 
 #vehicules {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 

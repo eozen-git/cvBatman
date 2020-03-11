@@ -26,24 +26,61 @@
 
         <div class="description">
             <div class="text-description">
-                <h1>Batman</h1>
+                <div id="noms">
+                    <h1>Batman</h1>
+                    <p>Nom du poste</p>
+                </div>
+
+            </div>
+            <div>
+                <img src="https://cdn.pixabay.com/photo/2015/03/30/03/49/batman-697956_960_720.jpg" alt="batman-profil">
+            </div>
+
+            <div id="demande">
                 <p>Acuellement en poste officieusement à Gotham City, je cherche à donner un nouvel élan à ma carrière. Je suis actuellement à la recherche d'un emploi dans le domaine de la sécurité privée aux alentours d'Orléans. Discret, minutieux, et magnanime je saurai mettre mes compétences à votre service. </p>
             </div>
-            <img src="https://cdn.pixabay.com/photo/2015/03/30/03/49/batman-697956_960_720.jpg" alt="batman-profil">
+
         </div>
 
     </header>
     <nav class="headernav" id="headernav">
         <a href="#haut"><img src="Images/batlogo.png" alt=""></a>
         <a href="#competences">Compétences</a>
-        <a href="#projets">Projets</a>
         <a href="#experiences">Expériences</a>
         <a href="#mobilite">Mobilité</a>
         <a href="#interets">Intérêts</a>
         <a href="#contact">Contact</a>
     </nav>
+<<<<<<< HEAD
 
     
+=======
+    <nav class="main-navigation">
+        <div class="nav-wrapper">
+            <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
+            <label for="menu-checkbox" class="menu-toggle">≡ Menu</label>
+            <ul class="menu">
+                <li><a href="#haut"><img src="Images/batlogo.png" alt=""></a></li>
+                <a href="#competences">
+                    <li>Compétences</li>
+                </a>
+                <a href="#experiencs">
+                    <li>Expériences</li>
+                </a>
+                <a href="#mobilite">
+                    <li>Mobilité</li>
+                </a>
+                <a href="#interets">
+                    <li>Intérêts</li>
+                </a>
+                <a href="#contact">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+>>>>>>> 9ed35098fbd7199f9b03ce975624762800f81e94
     <main>
         <section id="competences">
             <h2>Compétences</h2>
@@ -61,10 +98,12 @@
                     <p class="comp_description">Par l'alliance de mes capacités physiques hors-normes et de mes bat-gadgets fabriqués par moi-même, les bandits n'échappent plus au joug sacré de la justice des hommes.</p>
                 </li>
             </ul>
-        </section>     
+        </section>
+
+        <h2 id="xp">Expérience</h2>
+        <h3 id="arrestations">Arrestations</h3>
+
         <section id="projets">
-            <h2>Projets</h2>
-            
             <div class="card-group">
                 <div class="card">
                     <div class="card-img">
@@ -72,62 +111,66 @@
                     </div>
                     <div class="container">
                         <div class="card-text">
-                            <h4><b>Joker</b></h4> 
+                            <h4><b>Joker</b></h4>
                             <p>Arrêté le 20/02/2020</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="card">
                     <div class="card-img">
                         <img src="Images/penguin.jpg" alt="Photo du pingouin">
-                    </div> 
+                    </div>
                     <div class="container">
                         <div class="card-text">
-                            <h4><b>Oswald Cobblepot</b></h4> 
+                            <h4><b>Oswald Cobblepot</b></h4>
                             <p>Arrêté le 20/03/2020</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="card">
                     <div class="card-img">
                         <img src="Images/mystery_man.jpg" alt="Photo d'Edward Nigma">
-                    </div> 
+                    </div>
                     <div class="container">
-                      <div class="card-text">
-                        <h4><b>Edward Nigma</b></h4> 
-                        <p>Arrêté le 20/03/2020</p>
-                      </div> 
+                        <div class="card-text">
+                            <h4><b>Edward Nigma</b></h4>
+                            <p>Arrêté le 20/03/2020</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="experiences">
+            <div>
+                <h2>Références</h2>
+                <div id="references">
+                    <figure>
+                        <img src="Images/logoJL.jpg" alt="logo DC">
+                        <figcaption></figcaption>
+                    </figure>
 
-            <div id="references">
-                <figure>
-                    <img src="" alt="logo DC">
-                    <figcaption></figcaption>
-                </figure>
+                    <figure>
+                        <img src="Images/logoWW.png" alt="logo Wonder Woman">
+                        <figcaption></figcaption>
+                    </figure>
 
-                <figure>
-                    <img src="" alt="logo Wonder Woman">
-                    <figcaption></figcaption>
-                </figure>
+                    <figure>
+                        <img src="Images/logoSM.png" alt="Superman">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
 
-                <figure>
-                    <img src="" alt="Superman">
-                    <figcaption></figcaption>
-                </figure>
             </div>
 
+
             <div id="formation">
+                <h2>Formation</h2>
                 <ul>
-                    <li>ligue des Justiciers</li>
+                    <li>Ligue des Justiciers</li>
                     <li>Ligue des Ombres</li>
-                    <li></li>
                 </ul>
             </div>
         </section>
@@ -136,13 +179,12 @@
             <div>
                 <h2>Mobilité géographique</h2>
                 <div id="maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85640.15228716246!2d1.8421689270642467!3d47.873394653107624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4e4d49df386e3%3A0x9eb97de479c38029!2zT3Jsw6lhbnM!5e0!3m2!1sfr!2sfr!4v1583830943819!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85640.15228716246!2d1.8421689270642467!3d47.873394653107624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4e4d49df386e3%3A0x9eb97de479c38029!2zT3Jsw6lhbnM!5e0!3m2!1sfr!2sfr!4v1583830943819!5m2!1sfr!2sfr" width="550" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
             </div>
 
             <div>
-                <h2>Véhicules </h2>
-
+                <h2>Véhicules d'intervention rapide </h2>
                 <div id="vehicules">
                     <figure>
                         <img src="Images/batmobile.jpg" alt="Batmobile">
@@ -152,6 +194,11 @@
                     <figure>
                         <img src="Images/batwing.jpg" alt="Batwing">
                         <figcaption>Batwing</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="Images/batpod.jpg" alt="Batmobile">
+                        <figcaption>Batpod</figcaption>
                     </figure>
                 </div>
             </div>
@@ -182,7 +229,7 @@
                     <figcaption>voyage</figcaption>
                 </figure>
             </div>
-           
+
         </section>
 
         <section id="contact">
@@ -191,31 +238,35 @@
             <h2>Me contacter</h2>
             <div class="contact">
                 <div class="coordonnees">
-                    <div class="mail_batman"><a href="mailto:batman@gotham.cave"><img src="Images/paper-plane.svg" alt="Avion en papier"></a><p>Batman@gotham.cave</p></div>
-                    <div class="tel_batman"><a href="tel:+12123548844"><img src="Images/mobile-phone.svg" alt="Téléphone mobile"></a><p>(1)212-354-8844</p></div>
+                    <div class="mail_batman"><a href="mailto:batman@gotham.cave"><img src="Images/paper-plane.svg" alt="Avion en papier"></a>
+                        <p>Batman@gotham.cave</p>
+                    </div>
+                    <div class="tel_batman"><a href="tel:+12123548844"><img src="Images/mobile-phone.svg" alt="Téléphone mobile"></a>
+                        <p>(1)212-354-8844</p>
+                    </div>
                 </div>
                 <form action="test.php" method="POST" id="formulaire_mail">
                     <fieldset class="formulaire_mail">
                         <legend>M'envoyer un message</legend>
-                            <label for="email">Mail</label>
-                            <input type="email" id="email" name="email" placeholder="@" required>
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" cols="50" rows="10" required></textarea>
-                            <button class="button" type="submit" form="formulaire_mail"><span>Envoyer</span></button>
-                    </fieldset>                       
+                        <label for="email">Mail</label>
+                        <input type="email" id="email" name="email" placeholder="@" required>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="50" rows="10" required></textarea>
+                        <button class="button" type="submit" form="formulaire_mail"><span>Envoyer</span></button>
+                    </fieldset>
                 </form>
                 <form action="test.php" method="POST" id="formulaire_tel">
                     <fieldset class="formulaire_tel">
                         <legend>Je vous rappelle</legend>
-                            <label for="name">Nom</label>
-                            <input type="text" id="name" name="name" required>
-                            <label for="tel">Téléphone</label>
-                            <input type="tel" id="tel" name="tel" minlength="10" placeholder="06" required>
-                            <label for="date">Date</label>
-                            <input type="date" id="date" name="date">
-                            <label for="time" id="time">Entre 8:00 et 20:00</label>
-                            <input type="time" min="08:00" max="20:00">
-                            <button class="button" type="submit" form="formulaire_tel"><span>Envoyer</span></button>
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="tel">Téléphone</label>
+                        <input type="tel" id="tel" name="tel" minlength="10" placeholder="06" required>
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date">
+                        <label for="time" id="time">Entre 8:00 et 20:00</label>
+                        <input type="time" min="08:00" max="20:00">
+                        <button class="button" type="submit" form="formulaire_tel"><span>Envoyer</span></button>
                     </fieldset>
                 </form>
             </div>
