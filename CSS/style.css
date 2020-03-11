@@ -56,9 +56,9 @@ h2 {
 }
 
 .titres{
-    background-image: url("../Images/background_titres.png");
+    background-image: url("../Images/background-test-titres.png");
     width: 400px;
-    height: 134px;
+    height: 136px;
     margin: auto;
     position: relative;
     display: flex;
