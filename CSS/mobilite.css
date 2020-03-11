@@ -11,9 +11,9 @@
     object-fit: cover;
 }
 
-#mobilite h2 {
+#mobilite h3 {
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 #mobilite img {
@@ -37,4 +37,8 @@
 
 #vehicules figcaption {
     text-align: center;
+}
+
+.titres {
+    align-items: center;
 }
