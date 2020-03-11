@@ -42,3 +42,18 @@
 .titres {
     align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+    #mobilite {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .enfants {
+        padding: 3vw 0;
+    }
+
+
+}
