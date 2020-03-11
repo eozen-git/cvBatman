@@ -1,72 +1,70 @@
 #haut {
     box-shadow: inset 0 0 0 2000px var(--dark);
-    height: 92vh;
 }
 
 .description {
     display: flex;
     justify-content: space-between;
+
 }
 
 h1 {
     font-size: 70pt;
-    margin-left: var(--spacing-lg);
-    margin-top: 10%;
+    /*margin-left: var(--spacing-lg);*/
+    /*margin-top: 10%;*/
 
 }
 
-.text-description {
+#noms {
     display: flex;
     align-items: center;
-    height: 45vw;
+    flex-direction: column;
+    justify-content: center;
+    /*height: 45vw;*/
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 #noms p {
     font-size: 3em;
+    text-align: center; 
+    padding-bottom: 5%;
 }
+
 
 
 #demande {
     width: 20em;
     display: flex;
     align-items: center;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+#demande p {
+    font-size: 14pt;
 }
 
 .description img {
 
-    padding: 2.5% 2.5% 1%;
     height: 45vw;
 
 }
-
-.text-description h1 {
-    align-self: start;
-}
-
-.text-description p {
-
-    align-self: flex-end;
-    text-align: right;
-    font-size: 20pt;
-    padding-bottom: 5%;
-}
-
 .pix-home {
     height: 20px;
 }
 
 @media screen and (max-width: 950px) {
 
-    .text-description p {
-        font-size: 2vw;
+    #demande p {
+        font-size: 10pt;
     }
-
     h1 {
-        font-size: 10vw;
+        font-size: 40pt;
+        margin-left: var(--spacing-lg);
+        margin-right: 5%;
+    
     }
-
-   /* .headernav a {
-        font-size: 2vw;
-        padding: 0px;
-    }*/
+    #noms p {
+        font-size: 14pt;
+    }
 }
