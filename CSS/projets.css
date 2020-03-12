@@ -20,15 +20,15 @@
 }
 
 #projets ul li:nth-of-type(1){
-  background-image: url("../Images/exp_joker.JPG");
+  background-image: url("../Images/Arrestations/exp_joker.JPG");
 }
 
 #projets ul li:nth-of-type(2){
-  background-image: url("../Images/exp_penguin.jpg");
+  background-image: url("../Images/Arrestations/exp_penguin.jpg");
 }
 
 #projets ul li:nth-of-type(3){
-  background-image: url("../Images/exp_nygma.jpg");
+  background-image: url("../Images/Arrestations/exp_nygma.jpg");
 }
 
 #projets ul li:hover{
@@ -88,7 +88,7 @@
 
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 460px){
   #projets ul li{
       height: 220px;
       width: 220px;
@@ -106,5 +106,17 @@
 
   #projets ul li .exp_nom{
       top: 100px;
+  }
+
+  #projets ul li:nth-of-type(1){
+    background-image: url("../Images/Arrestations/exp_joker_small.JPG");
+  }
+  
+  #projets ul li:nth-of-type(2){
+    background-image: url("../Images/Arrestations/exp_penguin_small.jpg");
+  }
+  
+  #projets ul li:nth-of-type(3){
+    background-image: url("../Images/Arrestations/exp_nygma_small.jpg");
   }
 }
