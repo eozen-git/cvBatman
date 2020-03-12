@@ -46,7 +46,7 @@ header {
         position: fixed;
         right: 2%;
         top: 2%;
-        z-index: 1000;
+        z-index: 1;
         
     }
     .main-navigation img {
@@ -63,7 +63,7 @@ header {
         flex-direction: column;
         align-items: center;
         position: fixed;
-        z-index: 1000;
+        z-index: 2;
         top: 0;
     }
     .links a {
