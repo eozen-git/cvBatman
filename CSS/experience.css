@@ -36,7 +36,7 @@
 
 
 #references img {
-    width: 12em;
+    width: 15vw;
 }
 
 #references img:hover {
@@ -53,6 +53,7 @@
 
 #formation img {
     margin-top: 10vh;
+    width: 40vw
 }
 
 #formation p {
@@ -64,6 +65,7 @@
     height: 60vh;
 
 }
+
 
 /* #formation ul {
     display: flex;
@@ -84,9 +86,19 @@
         padding-top: 0;
     }
 
+    #references {
+        align-content: center;
+        padding-bottom: 8em;
+    }
+
     #references img:hover {
         animation: none;
-        width: 12em;
+        width: 30vw;
+    }
+
+    #references img {
+        animation: none;
+        width: 25vw;
     }
 
     #formation {
