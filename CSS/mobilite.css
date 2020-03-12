@@ -4,17 +4,11 @@
     justify-content: space-around;
 }
 
-#mob {
-    text-align: center
-}
 
-#vehicules3 {
-    margin-top: 10vh;
-}
 
 #vehicules img {
-    width: 15em;
-    height: 10em;
+    width: 300px;
+    height: 30vh;
     padding: 1em;
     object-fit: cover;
 }
@@ -36,12 +30,16 @@
 
 #vehicules {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 60vh;
+    width: 30vw;
 }
 
+#vehicules3 {
+    display: flex;
+    margin-left: 25%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 #vehicules figcaption {
     text-align: center;
@@ -51,7 +49,12 @@
     align-items: center;
 }
 
-@media screen and (max-width: 768px) and (max-width: 414px) {
+#mobilite .enfants {
+    padding-left: 3em
+}
+
+
+@media screen and (max-width: 768px) {
     #mobilite {
         display: flex;
         flex-direction: column;
@@ -69,7 +72,11 @@
     }
 
     #vehicules3 {
-        margin-top: 0vh;
+        margin: 5vh 0;
+    }
+
+    #mobilite .enfants {
+        padding: 0;
     }
 
 }
