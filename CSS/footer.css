@@ -7,8 +7,7 @@ footer {
 .coordonnees {
     display: flex;
     flex-direction: column;
-    max-width: 30vw;
-    padding-left: 20px;
+    width: 30vw;
 }
 .mail_batman,
 .tel_batman {
@@ -23,7 +22,7 @@ footer {
     color: var(--main-color);
     text-decoration: none;
     transition: transform 1s;
-    max-width: 30vw;
+    width: 30vw;
     justify-content: center;
 }
 .mail_batman a img,
@@ -131,5 +130,11 @@ footer {
     .mail_batman a:hover,
     .tel_batman a:hover {
         transform: scale(1);
+    }
+    .coordonnees {
+        margin-left: 30px;
+    }
+    .copyright {
+        margin-left: 20px;
     }
 }

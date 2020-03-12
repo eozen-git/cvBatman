@@ -88,11 +88,6 @@ h2 {
     }
 }
 
-
-main {
-    margin: var(--spacing-lg);
-}
-
 section {
 
     padding-top: 64px;
