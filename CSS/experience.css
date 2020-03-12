@@ -49,7 +49,11 @@
 }
 
 #formation img {
-    margin-top: 10vh
+    margin-top: 10vh;
+}
+
+#formation p {
+    text-align: center;
 }
 
 
