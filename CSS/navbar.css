@@ -20,6 +20,10 @@ header {
     font-family: var(--title-font);
     text-decoration: none;
     /*font-size: 2vw;*/
+    background-color: var(--main-color);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-radius: 60%;
 }
 
 
@@ -27,6 +31,7 @@ header {
     background-color: var(--dark);
     color: var(--main-color);
     text-decoration: underline;
+
 }
 .main-navigation, .links {
     display: none;
