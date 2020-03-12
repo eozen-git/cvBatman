@@ -47,7 +47,7 @@ h1 {
 }
 
 #demande p {
-    font-size: 1.7vw;
+    font-size: 14pt;
 }
 
 .speatch {
@@ -78,7 +78,7 @@ h1 {
 @media screen and (max-width: 980px){
     #demande {
         height: 50%;
-        width: 50%;
+        width: 80%;
         margin: auto;
     }
     .speatch {
@@ -94,8 +94,9 @@ h1 {
         width: 300px;
     }
     #demande p {
-        font-size: 10pt;
+        font-size: 2vh;
     }
+
     #demande {
         height: 50%;
         width: 100%;
@@ -110,19 +111,19 @@ h1 {
         align-items: center;
     }
     .speatch {
-        width: 50%;
+        width: 80%;
         height: 50%;
     }
 
     h1 {
-        font-size: 40pt;
+        font-size: 10vw;
         margin-left: var(--spacing-lg);
         margin-right: 5%;
 
     }
 
     #noms p {
-        font-size: 14pt;
+        font-size: 5vw;
     }
     #haut{
         height: 100vh;
