@@ -67,6 +67,9 @@
         transform: none;
     }
 
+    #sectionmobile {
+        padding: 0;
+    }
 
     #mobilite .enfants {
         padding: 0;
