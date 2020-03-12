@@ -86,10 +86,16 @@ section {
     margin-bottom: var(--spacing-lg);
 }
 
-@media screen and (min-width: 768px){
-header, section {
-    height: 650px;
-}
+@media screen and (min-width: 768px) {
+
+    header,
+    section {
+        height: 650px;
+    }
+
+    #mob {
+        align-items: center;
+    }
 }
 
 
