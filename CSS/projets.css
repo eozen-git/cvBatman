@@ -1,22 +1,22 @@
-#projets ul{
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: var(--spacing);
+#projets ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: var(--spacing);
 }
 
-#projets ul li{
-  border-radius: 100%;
-  height: 340px;
-  width: 340px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: none;
-  margin: var(--spacing);
-  background-color: var(--dark-sec);
+#projets ul li {
+    border-radius: 100%;
+    height: 340px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    margin: var(--spacing);
+    background-color: var(--dark-sec);
 }
 
 #projets ul li:nth-of-type(1){
@@ -31,63 +31,66 @@
   background-image: url("../Images/Arrestations/exp_nygma.jpg");
 }
 
-#projets ul li:hover{
-  /* box-shadow: 0px 0px 5px 2px black; */
-  box-shadow:inset 0 0 0 200px rgba(0,0,0,0.75);
-  /* transition: 0.1s; */
+#projets ul li:hover {
+    /* box-shadow: 0px 0px 5px 2px black; */
+    box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.75);
+    /* transition: 0.1s; */
 }
 
-.exp_description{
-  display: none;
+.exp_description {
+    display: none;
 }
 
-#projets ul li:hover .exp_description{
-  display: inline;
-  text-align: center;
-  margin: var(--spacing-lg);
-  /* background-color: rgba(0, 0, 0, 0.75); */
-  border-radius: 4px;
-  padding: 5px;
+#projets ul li:hover .exp_description {
+    display: inline;
+    text-align: center;
+    margin: var(--spacing-lg);
+    /* background-color: rgba(0, 0, 0, 0.75); */
+    border-radius: 4px;
+    padding: 5px;
 }
 
-#projets ul li .exp_nom{
-  font-size: var(--medium-size);
-  background-color: rgba(0, 0, 0, 0.75);
-  border-radius: 4px;
-  padding: 5px;
+#projets ul li .exp_nom {
+    font-size: var(--medium-size);
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 5px;
 }
 
-#projets ul li:hover .exp_nom{
-  display: none;
+#projets ul li:hover .exp_nom {
+    display: none;
 }
 
-@media screen and (max-width: 768px){
-  #projets ul li{
-      position: relative;
-      box-shadow:inset 0 0 0 200px rgba(0,0,0,0.75);
-  }
-  .exp_description{
-      display: inline;
-      text-align: center;
-      margin: var(--spacing-lg);
-      /* background-color: rgba(0, 0, 0, 0.75); */
-      border-radius: 4px;
-  }
+@media screen and (max-width: 768px) {
+    #projets ul li {
+        position: relative;
+        box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.75);
+    }
+
+    .exp_description {
+        display: inline;
+        text-align: center;
+        margin: var(--spacing-lg);
+        /* background-color: rgba(0, 0, 0, 0.75); */
+        border-radius: 4px;
+    }
 
 
-  #projets ul li .exp_nom{
-      display: inline;
-      position: absolute;
-      top: 30px;
-      text-align: center;
-      background-color: rgba(0, 0, 0, 0);
-  }
-  #projets ul li:hover .exp_nom{
-      display: inline;
-  }
+    #projets ul li .exp_nom {
+        display: inline;
+        position: absolute;
+        top: 30px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    #projets ul li:hover .exp_nom {
+        display: inline;
+    }
 
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 460px){
   #projets ul li{
       height: 220px;
@@ -120,3 +123,27 @@
     background-image: url("../Images/Arrestations/exp_nygma_small.jpg");
   }
 }
+=======
+@media screen and (max-width: 414px) {
+    #projets ul li {
+        height: 220px;
+        width: 220px;
+    }
+
+    #projets ul li:hover .exp_description {
+        display: none;
+    }
+
+    #projets ul li:hover .exp_nom {
+        display: inline;
+    }
+
+    .exp_description {
+        display: none;
+    }
+
+    #projets ul li .exp_nom {
+        top: 100px;
+    }
+}
+>>>>>>> feature/yannice
