@@ -7,7 +7,8 @@ footer {
 .coordonnees {
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    max-width: 30vw;
+    padding-left: 20px;
 }
 .mail_batman,
 .tel_batman {
@@ -22,7 +23,8 @@ footer {
     color: var(--main-color);
     text-decoration: none;
     transition: transform 1s;
-    width: 30vw;
+    max-width: 30vw;
+    justify-content: center;
 }
 .mail_batman a img,
 .tel_batman a img {
@@ -40,8 +42,8 @@ footer {
 }
 .copyright {
     color: var(--main-color);
-    width: 33vw;
-    font-size: var(--medium-size);
+    width: 30vw;
+    font-size: var(--main-size);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +69,7 @@ footer {
     text-decoration: none;
     color: var(--dark);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 414px){
     footer {
         display: flex;
         flex-direction: column;
@@ -90,5 +92,44 @@ footer {
     }
     .footer_links {
         width: 66vw;
+    }
+    .mail_batman a:hover,
+    .tel_batman a:hover {
+        transform: scale(1);
+    }
+}
+@media only screen and (min-width: 415px) and (max-width: 768px){
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--dark);
+        padding: 16px 0;
+    }
+    .coordonnees {
+        width: 100vw;
+        margin-bottom: var(--spacing);
+    }
+    .coordonnees a {
+        width: 100vw;
+        justify-content: center;
+    }
+    .copyright {
+        width: 100vw;
+        margin-bottom: var(--spacing);
+        padding: var(--spacing-sm);
+    }
+    .footer_links {
+        width: 66vw;
+    }
+    .mail_batman a:hover,
+    .tel_batman a:hover {
+        transform: scale(1);
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+    .mail_batman a:hover,
+    .tel_batman a:hover {
+        transform: scale(1);
     }
 }
