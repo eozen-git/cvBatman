@@ -7,10 +7,26 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
     border: none;
+    height: 410px;
 }
 .formulaire_mail textarea {
-    max-width: 320px;
+    width: 460px;
+}
+.formulaire_mail input {
+    width: 460px;
+    height: 40px;
+}
+.formulaire_tel input {
+    width: 320px;
+    height: 40px;
+}
+.time {
+    align-self: left;
+}
+.time input {
+    width: 120px;
 }
 label,
 input,
@@ -28,9 +44,8 @@ legend {
 .formulaire_tel {
     display: flex;
     flex-direction: column;
-    height: 363px;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
     border: none;
 }  
 .button {
@@ -42,7 +57,7 @@ legend {
     text-align: center;
     font-size: 20px;
     padding: 12px;
-    width: 120px;
+    width: 110px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
@@ -96,22 +111,5 @@ legend {
     }
     .contact h2 {
         margin-bottom: 16px;
-    }
-}  
-@media only screen and (max-width: 360px) {
-    .coordonnees {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
-    .mail_batman a img {
-        margin: 0;
-    }
-    .tel_batman a img {
-        margin: 0;
-    }
-    .mail_batman p,
-    .tel_batman p {
-        display: none;
     }
 }

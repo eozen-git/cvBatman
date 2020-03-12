@@ -23,14 +23,11 @@
     <header id="haut">
 
         <div class="description">
-            <div class="text-description">
-                <div id="noms">
-                    <h1>Batman</h1>
-                    <p>Nom du poste</p>
-                </div>
-
+            <div id="noms">
+                <h1>Batman</h1>
+                <p>Nom du poste</p>
             </div>
-            <div>
+            <div class="batman-pic">
                 <img src="https://cdn.pixabay.com/photo/2015/03/30/03/49/batman-697956_960_720.jpg" alt="batman-profil">
             </div>
 
@@ -44,7 +41,7 @@
     <nav class="headernav" id="headernav">
         <a href="#haut"><img class="pix-home" src="Images/batlogo.png" alt=""></a>
         <a href="#competences">Compétences</a>
-        <a href="#experiences">Expériences</a>
+        <a href="#projets">Expériences</a>
         <a href="#mobilite">Mobilité</a>
         <a href="#interets">Intérêts</a>
         <a href="#contact">Contact</a>
@@ -71,49 +68,29 @@
             </ul>
         </section>
 
-        <div class="titres">
-            <h2 id="xp">Expérience</h2>
-        </div>
-        <h3 id="arrestations">Arrestations</h3>
+        
 
         <section id="projets">
-            <div class="card-group">
-                <div class="card">
-                    <div class="card-img">
-                        <img src="Images/joker.jpg" alt="Photo du Joker">
-                    </div>
-                    <div class="container">
-                        <div class="card-text">
-                            <h4><b>Joker</b></h4>
-                            <p>Arrêté le 20/02/2020</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <img src="Images/penguin.jpg" alt="Photo du pingouin">
-                    </div>
-                    <div class="container">
-                        <div class="card-text">
-                            <h4><b>Oswald Cobblepot</b></h4>
-                            <p>Arrêté le 20/03/2020</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-img">
-                        <img src="Images/mystery_man.jpg" alt="Photo d'Edward Nigma">
-                    </div>
-                    <div class="container">
-                        <div class="card-text">
-                            <h4><b>Edward Nigma</b></h4>
-                            <p>Arrêté le 20/03/2020</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="titres">
+                <h2 id="xp">Expérience</h2>
             </div>
+            <h3 id="arrestations">Arrestations</h3>
+            <ul>
+                <li>
+                    <p class="exp_nom">Le Joker</p>
+                    <p class="exp_description">Arrêté le 09/10/2019</p>
+                    <p class="exp_description">Il fait sûrement ses blagues en cellule, maintenant.</p>
+                <li>
+                    <p class="exp_nom">Le Pingouin</p>
+                    <p class="exp_description">Arrêté le 22/09/2014</p>
+                    <p class="exp_description">Le Pingouin a beau venir de la banquise, j'ai fini par le mettre au frais.</p>
+                </li>
+                <li>
+                    <p class="exp_nom">L'Homme-Mystère</p>
+                    <p class="exp_description">Arrêté le 25/04/2019</p>
+                    <p class="exp_description">Le vrai mystère, c'est de savoir comment il a réussi à rester en liberté si longtemps.</p>
+                </li>
+            </ul>
         </section>
 
         <section id="experiences">
@@ -241,7 +218,7 @@
                         <label for="date">Date</label>
                         <input type="date" id="date" name="date">
                         <label for="time" id="time">Entre 8:00 et 20:00</label>
-                        <input type="time" min="08:00" max="20:00">
+                        <div class="time"><input type="time" min="08:00" max="20:00"></div>
                         <button class="button" type="submit" form="formulaire_tel"><span>Envoyer</span></button>
                     </fieldset>
                 </form>
@@ -251,12 +228,8 @@
 
     <footer>
         <ul class="coordonnees">
-            <li class="mail_batman"><a href="mailto:batman@gotham.cave"><img src="Images/paper-plane.svg" alt="Avion en papier"></a>
-                <p>Batman@gotham.cave</p>
-            </li>
-            <li class="tel_batman"><a href="tel:+12123548844"><img src="Images/mobile-phone.svg" alt="Téléphone mobile"></a>
-                <p>(1)212-354-8844</p>
-            </li>
+            <li class="mail_batman"><a href="mailto:batman@gotham.cave"><img src="Images/signal.png" alt="Avion en papier"></a><p>Batman@gotham.cave</p></li>
+            <li class="tel_batman"><a href="tel:+12123548844"><img src="Images/signal.png" alt="Téléphone mobile"></a><p>(1)212-354-8844</p></li>
         </ul>
         <p class="copyright">&copy; 2020 Wild Code School<p>
                 <ul class="footer_links">
