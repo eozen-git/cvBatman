@@ -9,7 +9,7 @@
 
 .description {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 100%;
     align-items: center;
 
@@ -38,14 +38,14 @@ h1 {
 
 
 #demande {
-    width: 20em;
+    width: 25em;
 
     margin-right: 1%;
     margin-left: 1%;
 }
 
 #demande p {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 
 /*.batman-pic {
@@ -53,15 +53,32 @@ h1 {
 
 }*/
 
-.batman-pic img {
-
-    height: 45vw;
-
+.batman-pic{
+    background-image: url("../Images/entete_large.jpg");
+    height: 610px;
+    width: 610px;
+    border-radius: 100%;
 
 }
 
 .pix-home {
     height: 20px;
+}
+
+@media screen and (max-width: 1200px){
+    .batman-pic{
+        background-image: url("../Images/entete_med.jpg");
+        height: 500px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .batman-pic{
+        background-image: url("../Images/entete_reg.jpg");
+        height: 300px;
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 768px) {
