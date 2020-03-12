@@ -94,10 +94,10 @@ section {
     margin-bottom: var(--spacing-lg);
 }
 
-@media screen and (min-width: 1240px){
+/* @media screen and (min-width: 1240px){
     section {
         height: 650px;
     }
-}
+} */
 
 
