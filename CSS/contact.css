@@ -62,7 +62,7 @@
 }
 .formulaire_mail button {
     align-self: flex-end;
-    margin-top: 15px;
+    margin-top: var(--spacing);
 }
 
 .formulaire_mail button:hover {
@@ -77,7 +77,7 @@
     background-image: url("../background/batman-projector.png");
     background-size: cover;
     margin: 0;
-    padding-bottom: 16px;
+    padding-bottom: var(--spacing);
     }
 .contact {
     display: flex;
@@ -115,7 +115,7 @@
     }
 legend {
     font-family: var(--title-font);
-    font-size: 1.2rem;
+    font-size: var(--medium-size);
     }
 
 
@@ -129,10 +129,10 @@ legend {
     .formulaire_tel {
         display: flex;
         flex-direction: column;
+        justify-content: initial;
         align-items: center;
-        justify-content: space-between;
         border: none;
-        height: 410px;
+        height: 430px;
     }
     .formulaire_mail {
         margin-bottom: var(--spacing);
@@ -152,13 +152,24 @@ legend {
         width: 320px;
         height: 40px;
     }
-    .contact h2 {
-        margin-bottom: 16px;
-    }
     .formulaire_mail button:hover,
     .formulaire_tel button:hover {
         box-shadow: 0px 0px 0px 0px;
         animation: 0s 0;
-        margin: 0;
+    }
+    .formulaire_mail label,
+    .formulaire_tel label {
+        margin-top: var(--spacing);
+        margin-bottom: var(--spacing-sm);
+    }
+    .time input {
+        margin-bottom: var(--spacing);
     }
 }
+@media only screen and (max-width: 768px) {
+    #contact {
+        background-image: url(../background/dark_leather.png);
+    }
+}
+
+
