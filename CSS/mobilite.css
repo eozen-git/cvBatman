@@ -7,7 +7,7 @@
 
 #vehicules img {
     width: 300px;
-    height: 30vh;
+    height: 300px;
     padding: 1em;
     object-fit: cover;
     opacity: 0.5;
@@ -67,6 +67,9 @@
         transform: none;
     }
 
+    #sectionmobile {
+        padding: 0;
+    }
 
     #mobilite .enfants {
         padding: 0;
