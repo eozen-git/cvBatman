@@ -1,14 +1,15 @@
 .shilling{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 70%;
+    margin: auto;
 }
 
 .reco{
     display: flex;
-    width: 70%;
     /* justify-content: space-between; */
     align-items: center;
+    width: 80%;
 }
 
 .reco:nth-of-type(2){
@@ -34,6 +35,9 @@
 }
 
 @media screen and (max-width: 768px){
+    .shilling{
+        align-items: center;
+    }
     .reco{
         flex-direction: column;
     }
