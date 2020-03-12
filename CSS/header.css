@@ -1,4 +1,6 @@
 #haut {
+    display: flex;
+    justify-content: center;
     box-shadow: inset 0 0 0 2000px var(--dark);
     background-image: url("../background/batman.jpg") ;
     overflow: hidden;

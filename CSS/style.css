@@ -59,7 +59,7 @@ h2 {
 }
 
 .titres{
-    background-image: url("../Images/background-test-titres.png");
+    background-image: url("../Images/background_titres.png");
     width: 400px;
     height: 136px;
     margin: auto;
@@ -73,8 +73,21 @@ h2 {
     position: absolute;
     text-align: center;
     top: 30px;
-    
+
 }
+
+@media screen and (max-width: 768px){
+    .titres{
+        background-image: url("../Images/background_titres_small.png");
+        width: 300px;
+        height: 102px;
+    }
+    h2{
+        top: 21px;
+        font-size: 18pt;
+    }
+}
+
 
 main {
     margin: var(--spacing-lg);
@@ -87,9 +100,9 @@ section {
 }
 
 @media screen and (min-width: 768px){
-header, section {
-    height: 650px;
-}
+    header, section {
+        height: 650px;
+    }
 }
 
 

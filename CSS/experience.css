@@ -12,9 +12,15 @@
 #experiences {
     display: flex;
     justify-content: space-around;
+    align-items: center
 }
 
-#experiences h2 {
+#arrestations {
+    text-align: center;
+    padding-top: 1em;
+}
+
+#experiences h3 {
     text-align: center;
     margin-bottom: 1em;
 }
@@ -22,22 +28,64 @@
 #references {
     display: flex;
     align-items: center;
-    margin-bottom: 1em;
+    height: 50vh;
 }
 
+
 #references img {
-    width: 10em;
+    width: 12em;
 }
 
 #references img:hover {
     animation: animation 0.2s infinite;
-    width: 10.2em;
+    width: 11.2em;
 }
 
-#arrestations {
+
+#formation {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+
+#formation img {
+    margin-top: 10vh;
+}
+
+#formation p {
     text-align: center;
 }
 
-#xp {
-    margin-bottom: 2em;
+
+#experiences #enfants {
+    height: 60vh;
+
+}
+
+/* #formation ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formation ul li {
+    list-style: none;
+}*/
+
+@media screen and (max-width: 768px) {
+    #experiences {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #references img:hover {
+        animation: none;
+        width: 12em;
+    }
+
+    #formation {
+        padding: 0vh;
+    }
 }
