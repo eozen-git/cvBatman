@@ -22,7 +22,7 @@
 
 :root {
 
-    --main-color: rgb(206, 206, 49);
+    --main-color: #f8c200;
     --dark: rgb(29, 28, 28);
     --dark-sec: rgb(54, 51, 51);
     --light: rgb(199, 199, 179);
@@ -99,7 +99,7 @@ section {
     margin-bottom: var(--spacing-lg);
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1240px){
     header, section {
         height: 650px;
     }
