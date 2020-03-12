@@ -4,6 +4,10 @@
     justify-content: space-around;
 }
 
+#vehicules3 {
+    margin-top: 10vh;
+}
+
 #vehicules img {
     width: 15em;
     height: 10em;
@@ -41,4 +45,25 @@
 
 .titres {
     align-items: center;
+}
+
+@media screen and (max-width: 268px) {
+    #mobilite {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .enfants {
+        padding: 10vw 0;
+    }
+
+    #mobilite img {
+        opacity: 1;
+    }
+
+    #vehicules3 {
+        margin-top: 0vh;
+    }
+
 }

@@ -58,7 +58,7 @@ h2 {
     color: var(--main-color);
 }
 
-.titres{
+.titres {
     background-image: url("../Images/background-test-titres.png");
     width: 400px;
     height: 136px;
@@ -73,7 +73,7 @@ h2 {
     position: absolute;
     text-align: center;
     top: 30px;
-    
+
 }
 
 main {
