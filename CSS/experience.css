@@ -27,8 +27,11 @@
 
 #references {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
     height: 50vh;
+    flex-wrap: wrap;
+    width: 60vh;
+    padding-top: 4vh;
 }
 
 
@@ -37,7 +40,7 @@
 }
 
 #references img:hover {
-    animation: animation 0.2s infinite;
+    animation: animation 0.3s infinite;
     width: 11.2em;
 }
 
@@ -78,6 +81,7 @@
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
+        padding-top: 0;
     }
 
     #references img:hover {
@@ -86,6 +90,10 @@
     }
 
     #formation {
-        padding: 0vh;
+        padding: 0;
+    }
+
+    #formation a {
+        margin: 0;
     }
 }
