@@ -27,7 +27,7 @@ footer {
 }
 .mail_batman a img,
 .tel_batman a img {
-    margin-right: 12px;
+    margin-right: var(--main-spacing);
 }
 
 .mail_batman a:hover,
@@ -42,7 +42,7 @@ footer {
 .copyright {
     color: var(--main-color);
     width: 30vw;
-    font-size: var(--main-size);
+    font-size: var(--medium-size);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,6 @@ footer {
     }
     .coordonnees {
         width: 100vw;
-        margin-bottom: var(--spacing);
     }
     .coordonnees a {
         width: 100vw;
@@ -86,11 +85,11 @@ footer {
     }
     .copyright {
         width: 100vw;
-        margin-bottom: var(--spacing);
-        padding: var(--spacing-sm);
     }
     .footer_links {
         width: 66vw;
+        margin-top: var(--spacing-lg);
+        margin-bottom: var(--spacing-lg);
     }
     .mail_batman a:hover,
     .tel_batman a:hover {
@@ -107,7 +106,6 @@ footer {
     }
     .coordonnees {
         width: 100vw;
-        margin-bottom: var(--spacing);
     }
     .coordonnees a {
         width: 100vw;
@@ -115,11 +113,11 @@ footer {
     }
     .copyright {
         width: 100vw;
-        margin-bottom: var(--spacing);
-        padding: var(--spacing-sm);
     }
     .footer_links {
         width: 66vw;
+        margin-top: var(--spacing-lg);
+        margin-bottom: var(--spacing-lg);
     }
     .mail_batman a:hover,
     .tel_batman a:hover {

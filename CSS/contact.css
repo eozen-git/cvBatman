@@ -1,25 +1,101 @@
+@keyframes move_left {
+    12.5% {
+        transform: translateX(-1px);
+    }
+    25% {
+        transform: translateX(-2px);
+    }
+    37.5% {
+        transform: translateX(-3px);
+    }
+    50% {
+        transform: translateX(-4px);
+    }
+    62.5% {
+        transform: translateX(-5px);
+    }
+    75% {
+        transform: translateX(-6px);
+    }
+    87.5% {
+        transform: translateX(-7px);
+    }
+    100% {
+        transform: translateX(-8px);
+    }
+}
+@keyframes move_right {
+    12.5% {
+        transform: translateX(1px);
+    }
+    25% {
+        transform: translateX(2px);
+    }
+    37.5% {
+        transform: translateX(3px);
+    }
+    50% {
+        transform: translateX(4px);
+    }
+    62.5% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(6px);
+    }
+    87.5% {
+        transform: translateX(7px);
+    }
+    100% {
+        transform: translateX(8px);
+    }
+}
+.button {
+    background-image: url(../Images/batman-button.png);
+    background-size: cover;
+    width: 80px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: var(--dark);
+    background-color: #ffd530;
+    transition: box-shadow 1s;
+}
+.formulaire_mail button {
+    align-self: flex-end;
+    margin-top: var(--spacing);
+}
+
+.formulaire_mail button:hover {
+    box-shadow: 15px -15px 10px 2px rgb(248, 194, 0);
+    animation: 1s 1 forwards move_right;
+}
+.formulaire_tel button:hover {
+    box-shadow: -15px -15px 10px 2px rgb(248, 194, 0);
+    animation: 1s 1 forwards move_left;
+}
 #contact {
     background-image: url("../background/batman-projector.png");
     background-size: cover;
     margin: 0;
-    padding-bottom: 16px;
-}
+    padding-bottom: var(--spacing);
+    }
 .contact {
     display: flex;
     align-items: stretch;
     justify-content: space-around;
-}
-.formulaire_mail {
+    }
+.formulaire_mail,
+.formulaire_tel {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
     border: none;
-    height: 410px;
-}
+    height: 400px;
+    }
 .formulaire_mail textarea {
     width: 420px;
-}
+    }
 .formulaire_mail input {
     width: 420px;
     height: 40px;
@@ -27,68 +103,22 @@
 .formulaire_tel input {
     width: 320px;
     height: 40px;
-}
+    }
 .time {
-    align-self: left;
+    align-self: center;
+    }
+.time_label {
+    align-self: center;
 }
 .time input {
     width: 120px;
-}
-label,
-input,
-textarea,
-legend {
-    margin: 4px 0 4px;
-}
+    }
 legend {
     font-family: var(--title-font);
-    font-size: 1.2rem;
-}
-.formulaire_mail button {
-    align-self: flex-start;
-}
-.formulaire_tel {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    border: none;
-}  
-.button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: var(--main-color);
-    border: none;
-    color: var(--dark);
-    text-align: center;
-    font-size: 20px;
-    padding: 12px;
-    width: 120px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin-top: 10px;
-}   
-.button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-.button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-.button:hover span {
-    padding-right: 25px;
-}     
-.button:hover span:after {
-    opacity: 1;
-    right: 0;
-}
+    font-size: var(--medium-size);
+    }
+
+
 @media only screen and (max-width: 768px) {
     .contact {
         display: flex;
@@ -99,10 +129,10 @@ legend {
     .formulaire_tel {
         display: flex;
         flex-direction: column;
+        justify-content: initial;
         align-items: center;
-        justify-content: space-between;
         border: none;
-        height: 410px;
+        height: 430px;
     }
     .formulaire_mail {
         margin-bottom: var(--spacing);
@@ -122,17 +152,24 @@ legend {
         width: 320px;
         height: 40px;
     }
-    .contact h2 {
-        margin-bottom: 16px;
+    .formulaire_mail button:hover,
+    .formulaire_tel button:hover {
+        box-shadow: 0px 0px 0px 0px;
+        animation: 0s 0;
     }
-    .button:hover span {
-        padding-right: 0px;
-    }     
-    .button:hover span:after {
-        opacity: 1;
-        right: 0;
+    .formulaire_mail label,
+    .formulaire_tel label {
+        margin-top: var(--spacing);
+        margin-bottom: var(--spacing-sm);
     }
-    .button span:after {
-        content: none;
-    }  
+    .time input {
+        margin-bottom: var(--spacing);
+    }
 }
+@media only screen and (max-width: 768px) {
+    #contact {
+        background-image: url(../background/dark_leather.png);
+    }
+}
+
+
