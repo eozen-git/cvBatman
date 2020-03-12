@@ -12,10 +12,10 @@
     height: 410px;
 }
 .formulaire_mail textarea {
-    width: 460px;
+    width: 420px;
 }
 .formulaire_mail input {
-    width: 460px;
+    width: 420px;
     height: 40px;
 }
 .formulaire_tel input {
@@ -83,7 +83,7 @@ legend {
     opacity: 1;
     right: 0;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 768px) {
     .contact {
         display: flex;
         flex-direction: column;
@@ -95,19 +95,23 @@ legend {
         display: flex;
         align-items: center;
     }
+    .formulaire_mail {
+        margin-bottom: var(--spacing);
+    }
     .formulaire_mail button {
         align-self: center;
-    }
-    .mail_batman {
-        margin-bottom: 8px;
-    }
-    .tel_batman {
-        margin-top: 8px;
     }
     .formulaire_mail legend,
     .formulaire_tel legend {
         width: auto;
         margin: 0 auto;
+    }
+    .formulaire_mail textarea {
+        width: 320px;
+    }
+    .formulaire_mail input {
+        width: 320px;
+        height: 40px;
     }
     .contact h2 {
         margin-bottom: 16px;
