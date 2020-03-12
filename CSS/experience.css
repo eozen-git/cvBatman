@@ -8,21 +8,19 @@
     }
 }
 
-
-#experiences {
-    display: flex;
-    justify-content: space-around;
-    align-items: center
-}
-
 #arrestations {
     text-align: center;
     padding-top: 1em;
 }
 
+#experiences {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 #experiences h3 {
     text-align: center;
-    margin-bottom: 1em;
 }
 
 #references {
@@ -30,8 +28,8 @@
     justify-content: space-around;
     height: 50vh;
     flex-wrap: wrap;
-    width: 60vh;
-    padding-top: 4vh;
+    width: 400px;
+    align-items: center;
 }
 
 
@@ -45,25 +43,24 @@
 }
 
 
+#enfants {
+    /*    margin-bottom: 100px;*/
+
+}
+
 #formation {
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 300px;
 }
 
 #formation img {
-    margin-top: 10vh;
-    width: 40vw
+    margin-top: 50px;
+    width: 400px
 }
 
 #formation p {
     text-align: center;
-}
-
-
-#experiences #enfants {
-    height: 60vh;
-
 }
 
 
@@ -87,7 +84,10 @@
     }
 
     #references {
+        display: flex;
         align-content: center;
+        width: 450px;
+        padding: 0;
     }
 
     #references img:hover {
@@ -97,8 +97,14 @@
 
     #references img {
         animation: none;
-        width: 25vw;
+        width: 30vw;
     }
+
+    #JL {
+        order: 1;
+    }
+
+    #ww {}
 
     #formation {
         padding: 0;
