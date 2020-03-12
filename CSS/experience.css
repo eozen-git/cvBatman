@@ -28,8 +28,9 @@
     justify-content: space-around;
     height: 50vh;
     flex-wrap: wrap;
-    width: 400px;
+    width: 600px;
     align-items: center;
+    flex-direction: row;
 }
 
 
