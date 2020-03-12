@@ -25,39 +25,43 @@ h1 {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-right: 1%;
-    margin-left: 1%;
+    /*margin-right: 1%;
+    margin-left: 1%;*/
+    height: 50%;
 }
 
 #noms p {
     font-size: 3vw;
-    text-align: center;
+    /*text-align: center;*/
     padding: 5%;
 }
 
 
 
 #demande {
-    width: 20em;
-
-    margin-right: 1%;
-    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 #demande p {
     font-size: 1.5vw;
 }
 
-/*.batman-pic {
-    display: flex;
+.batman-pic {
+    width: 50%;
 
-}*/
+}
+.speatch {
+    width: 50%;
+    height: 100%;
+}
 
 .batman-pic img {
 
     height: 45vw;
-
-
 }
 
 .pix-home {
