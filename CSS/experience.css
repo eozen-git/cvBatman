@@ -1,4 +1,4 @@
-@keyframes animation {
+@keyframes animationmove {
     50% {
         transform: rotate(-10deg);
     }
