@@ -88,11 +88,6 @@ h2 {
     }
 }
 
-
-main {
-    margin: var(--spacing-lg);
-}
-
 section {
 
     padding-top: 64px;
@@ -100,14 +95,9 @@ section {
 }
 
 @media screen and (min-width: 1240px){
-    header, section {
+    section {
         height: 650px;
     }
 }
 
 
-/*@media screen and (max-width: 960px) {
-    section {
-        padding-top: 3%;
-    }
-}*/
