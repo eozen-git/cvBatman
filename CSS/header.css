@@ -9,10 +9,9 @@
 
 .description {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 100%;
     align-items: center;
-
 }
 
 h1 {
@@ -25,8 +24,9 @@ h1 {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-right: 1%;
-    margin-left: 1%;
+    /*margin-right: 1%;
+    margin-left: 1%;*/
+    height: 50%;
 }
 
 #noms p {
@@ -38,20 +38,22 @@ h1 {
 
 
 #demande {
-    width: 25em;
-
-    margin-right: 1%;
-    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-bottom: 2%;
 }
 
 #demande p {
     font-size: 1.7vw;
 }
 
-/*.batman-pic {
-    display: flex;
-
-}*/
+.speatch {
+    width: 50%;
+    height: 100%;
+}
 
 .batman-pic{
     background-image: url("../Images/entete_large.jpg");
@@ -74,17 +76,42 @@ h1 {
 }
 
 @media screen and (max-width: 980px){
+    #demande {
+        height: 50%;
+        width: 50%;
+        margin: auto;
+    }
+    .speatch {
+        width: 40%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
     .batman-pic{
         background-image: url("../Images/entete_reg.jpg");
         height: 300px;
         width: 300px;
     }
-}
-
-@media screen and (max-width: 768px) {
-
     #demande p {
         font-size: 10pt;
+    }
+    #demande {
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        /* margin: auto; */
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        align-items: center;
+    }
+    .speatch {
+        width: 50%;
+        height: 50%;
     }
 
     h1 {
@@ -96,6 +123,9 @@ h1 {
 
     #noms p {
         font-size: 14pt;
+    }
+    #haut{
+        height: 100vh;
     }
 }
 
