@@ -1,20 +1,19 @@
 #haut {
     box-shadow: inset 0 0 0 2000px var(--dark);
     background-image: url("../background/batman.jpg") ;
+    overflow: hidden;
 }
 
 .description {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 100%;
     align-items: center;
 
 }
 
 h1 {
-    font-size: 9vw;
-    /*margin-left: var(--spacing-lg);*/
-    /*margin-top: 10%;*/
+    font-size: 8vw;
 
 }
 
@@ -23,15 +22,14 @@ h1 {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    /*height: 45vw;*/
     margin-right: 1%;
     margin-left: 1%;
 }
 
 #noms p {
-    font-size: 3em;
+    font-size: 3vw;
     text-align: center; 
-    padding-bottom: 5%;
+    padding: 5%;
 }
 
 
@@ -44,15 +42,16 @@ h1 {
     margin-left: 1%;
 }
 #demande p {
-    font-size: 2vh;
+    font-size: 1.5vw;
 }
-.batman-pic {
+/*.batman-pic {
     display: flex;
-}
+
+}*/
 .batman-pic img {
 
     height: 45vw;
-    align-items: center;
+    
 
 }
 .pix-home {
