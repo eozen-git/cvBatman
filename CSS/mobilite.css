@@ -34,14 +34,12 @@
 
 #mobilite h3 {
     text-align: center;
-    margin-bottom: 1em;
+    margin-top: 50px;
 }
 
 .titres {
     align-items: center;
 }
-
-#mobilite .enfants {}
 
 #maps {
     display: flex;
@@ -56,7 +54,6 @@
         justify-content: center;
     }
 
-    .enfants {}
 
     #mobilite img {
         opacity: 1;
@@ -69,6 +66,7 @@
 
     #sectionmobile {
         padding: 0;
+        margin: 0;
     }
 
     #mobilite .enfants {
