@@ -47,7 +47,7 @@ h1 {
 }
 
 #demande p {
-    font-size: 14pt;
+    font-size: 28pt;
 }
 
 .speatch {
@@ -72,6 +72,9 @@ h1 {
         background-image: url("../Images/entete_med.jpg");
         height: 500px;
         width: 500px;
+    }
+    #demande p {
+        font-size: 20pt;
     }
 }
 
