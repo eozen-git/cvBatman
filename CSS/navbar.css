@@ -26,6 +26,7 @@ header {
 .headernav a:hover {
     background-color: var(--dark);
     color: var(--main-color);
+    text-decoration: underline;
 }
 .main-navigation, .links {
     display: none;
@@ -38,12 +39,15 @@ header {
     .main-navigation {
         display: block;
         position: fixed;
-        right: 5px;
-        top: 5px;
+        right: 2%;
+        top: 2%;
+        z-index: 1000;
         
     }
     .main-navigation img {
-        height: 5vh;
+        height: 10vw;
+        box-shadow: 0 0 5px 3px rgba(240, 248, 255, 0.568);
+        border-radius: 50%;
     }
     .links:target {
         display: flex;
@@ -61,6 +65,10 @@ header {
         color: var(--dark);
         font-size: 10vw;
         text-decoration: none;
+
+    }
+    .links a:active {
+        text-decoration: underline;
     }
     .home {
         height: 30vw;
