@@ -1,3 +1,9 @@
+#contact {
+    background-image: url("../background/batman-projector.png");
+    background-size: cover;
+    margin: 0;
+    padding-bottom: 16px;
+}
 .contact {
     display: flex;
     align-items: stretch;
@@ -57,10 +63,10 @@ legend {
     text-align: center;
     font-size: 20px;
     padding: 12px;
-    width: 110px;
+    width: 120px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
+    margin-top: 10px;
 }   
 .button span {
     cursor: pointer;
@@ -89,11 +95,14 @@ legend {
         flex-direction: column;
         align-items: center;
     }
-    .coordonnees,
     .formulaire_mail,
     .formulaire_tel {
         display: flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: space-between;
+        border: none;
+        height: 410px;
     }
     .formulaire_mail {
         margin-bottom: var(--spacing);
@@ -116,4 +125,14 @@ legend {
     .contact h2 {
         margin-bottom: 16px;
     }
+    .button:hover span {
+        padding-right: 0px;
+    }     
+    .button:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+    .button span:after {
+        content: none;
+    }  
 }
