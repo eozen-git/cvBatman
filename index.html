@@ -27,7 +27,7 @@
                 <h1>Batman</h1>
                 <p>Nom du poste</p>
             </div>
-            <div>
+            <div class="batman-pic">
                 <img src="https://cdn.pixabay.com/photo/2015/03/30/03/49/batman-697956_960_720.jpg" alt="batman-profil">
             </div>
 
@@ -214,7 +214,7 @@
                         <label for="date">Date</label>
                         <input type="date" id="date" name="date">
                         <label for="time" id="time">Entre 8:00 et 20:00</label>
-                        <input type="time" min="08:00" max="20:00">
+                        <div class="time"><input type="time" min="08:00" max="20:00"></div>
                         <button class="button" type="submit" form="formulaire_tel"><span>Envoyer</span></button>
                     </fieldset>
                 </form>
@@ -224,12 +224,8 @@
 
     <footer>
         <ul class="coordonnees">
-            <li class="mail_batman"><a href="mailto:batman@gotham.cave"><img src="Images/paper-plane.svg" alt="Avion en papier"></a>
-                <p>Batman@gotham.cave</p>
-            </li>
-            <li class="tel_batman"><a href="tel:+12123548844"><img src="Images/mobile-phone.svg" alt="Téléphone mobile"></a>
-                <p>(1)212-354-8844</p>
-            </li>
+            <li class="mail_batman"><a href="mailto:batman@gotham.cave"><img src="Images/signal.png" alt="Avion en papier"></a><p>Batman@gotham.cave</p></li>
+            <li class="tel_batman"><a href="tel:+12123548844"><img src="Images/signal.png" alt="Téléphone mobile"></a><p>(1)212-354-8844</p></li>
         </ul>
         <p class="copyright">&copy; 2020 Wild Code School<p>
                 <ul class="footer_links">
