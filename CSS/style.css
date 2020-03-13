@@ -75,6 +75,10 @@ h2 {
     top: 30px;
 
 }
+section {
+    padding-top: 64px;
+    margin-bottom: var(--spacing-lg);
+}
 
 @media screen and (max-width: 768px){
     .titres{
@@ -86,13 +90,11 @@ h2 {
         top: 21px;
         font-size: 18pt;
     }
+    section {
+        padding-top: 32px;
+    }
 }
 
-section {
-
-    padding-top: 64px;
-    margin-bottom: var(--spacing-lg);
-}
 
 /* @media screen and (min-width: 1240px){
     section {
